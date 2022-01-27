@@ -57,5 +57,5 @@
 
   - 파이썬 예제 코드
  <p align="center">
- <img src="https://user-images.githubusercontent.com/80745897/151337012-0e0b9826-af25-41f5-9a65-d2d8b52d56ad.PNG">
+ <img src="https://user-images.githubusercontent.com/80745897/151337198-d97153b7-b78d-4c8d-85a0-ef8b1bde79cd.PNG">
   </p> 
