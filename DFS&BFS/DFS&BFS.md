@@ -51,4 +51,4 @@
        방문하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼낸다.
     3) 2)번 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
- ![img](https://user-images.githubusercontent.com/80745897/151333894-fc197c75-d560-4100-a1f8-d782a371e675.gif)
+ ![img](https://user-images.githubusercontent.com/80745897/151333894-fc197c75-d560-4100-a1f8-d782a371e675.gif){: .center}
