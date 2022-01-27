@@ -71,5 +71,5 @@
  <img src="https://user-images.githubusercontent.com/80745897/151338947-3a635eda-fd42-49d6-81cb-c57e934e161e.gif">
   </p>
 
-  - 파이썬 
+  - 파이썬 예제 코드
 ![ex_bfs](https://user-images.githubusercontent.com/80745897/151340027-9669a950-8e52-4a45-872a-cd7d90a9dfba.PNG)
