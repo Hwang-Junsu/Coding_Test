@@ -58,3 +58,18 @@
   - 파이썬 예제 코드
  <img src="https://user-images.githubusercontent.com/80745897/151337198-d97153b7-b78d-4c8d-85a0-ef8b1bde79cd.PNG">
 
+
+# BFS (너비 우선 탐색)
+  - 쉽게 말해 가까운 노드부터 탐색하는 알고리즘이다. DFS는 최대한 멀리 있는 노드를 우선 탐색하지만, BFS는 그 반대다.
+  - BFS 구현에는 선입선출 방식인 큐 자료구조를 이용하는 것이 정석이다.
+  - 동작 과정
+    1) 탐색 시작 노드를 큐에 삽입하고 방문 처리를 한다.
+    2) 큐에서 노드를 꺼내 해당 노드의 인접 노드 중에서 방문하지 않은 노드를 모두 큐에 삽입하고 방문처리를 한다.
+    3) 2)번의 과정을 더 이상 할 수 없을 때까지 반복한다.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/80745897/151338947-3a635eda-fd42-49d6-81cb-c57e934e161e.gif">
+  </p>
+
+  - 파이썬 
+![ex_bfs](https://user-images.githubusercontent.com/80745897/151340027-9669a950-8e52-4a45-872a-cd7d90a9dfba.PNG)
