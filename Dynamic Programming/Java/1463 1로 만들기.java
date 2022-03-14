@@ -22,4 +22,4 @@ public class Main {
     }
 }
 
-# http://boj.kr/e45a8ab78bb0491f859f72d4f959f6d6
+// http://boj.kr/e45a8ab78bb0491f859f72d4f959f6d6
