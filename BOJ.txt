@@ -12,8 +12,8 @@ Kotlin http://boj.kr/d3f7decf81014732b2a4fe951da4d910
 2. 피보나치수2
 
 C/C++ http://boj.kr/8970366503d440ea82b39dcf4efd9c67
-C# https://www.acmicpc.net/source/40422498
-Python https://www.acmicpc.net/source/share/039ba33d85624c519719fb11cabb6406
+C# http://boj.kr/50cec63776df47609be8a2be9202414d
+Python http://boj.kr/039ba33d85624c519719fb11cabb6406
 Java http://boj.kr/1a92f899943249f5aaa47e1e9010b2c8
 Kotlin http://boj.kr/a006d69268ff4b0ca1d9031641e09659
 
@@ -22,14 +22,14 @@ Kotlin http://boj.kr/a006d69268ff4b0ca1d9031641e09659
 
 C/C++ http://boj.kr/e031d72c597b4b47b4343e40a2b9886e
 C# http://boj.kr/6b0ef0b9a454406eafb496f306492305
-Python https://www.acmicpc.net/source/share/d9bbd198f96c451ea26aa4833507ea11
+Python http://boj.kr/d9bbd198f96c451ea26aa4833507ea11
 Java http://boj.kr/e45a8ab78bb0491f859f72d4f959f6d6
 Kotlin http://boj.kr/0cc1a2f70cb44255a27ef566994ec938
 
 
 4. 제곱수의 합
 
-C/C++ https://www.acmicpc.net/source/share/78ef62d370d34172a451a56e8005711c
+C/C++ http://boj.kr/78ef62d370d34172a451a56e8005711c
 C#  http://boj.kr/0b0efbe256f049d09ed4dfad81557e50
 Python http://boj.kr/34ebc7734b4544ff90601705493fb67c
 Java http://boj.kr/437f44e012bd4fccaf338469d22ba4a5
