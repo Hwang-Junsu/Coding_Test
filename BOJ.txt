@@ -42,3 +42,38 @@ C# http://boj.kr/e6cc7508acae4594891cf04b95d0b2f5
 Python http://boj.kr/43a502474ca140418c3bbdec54a63868
 Java http://boj.kr/9365a86ec6b5439fb777381c20cd44c6
 Kotlin http://boj.kr/cbe97cfa40bd4f6890684594b9ef3a9c
+
+1. 계단오르기
+C/C++ http://boj.kr/0ce1f811b9f04f52bbaef841d5a3c4c4
+C# 
+Python 
+Java 
+Kotlin 
+
+2. 1,2,3 더하기
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+3. 파도반 수열
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+4. 2xn 타일링
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+5. 2xn 타일링2
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
