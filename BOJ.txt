@@ -58,7 +58,7 @@ Java
 Kotlin 
 
 3. 파도반 수열
-C/C++ 
+C/C++ http://boj.kr/06b7514316e043f49fb0555daf7fbd6e
 C# 
 Python 
 Java 
