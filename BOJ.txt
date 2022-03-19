@@ -51,7 +51,7 @@ Java
 Kotlin 
 
 2. 1,2,3 더하기
-C/C++ 
+C/C++ http://boj.kr/b2b5d51b590c450b9963001cb49b0d96
 C# 
 Python 
 Java 
