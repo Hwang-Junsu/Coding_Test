@@ -65,7 +65,7 @@ Java
 Kotlin 
 
 4. 2xn 타일링
-C/C++ 
+C/C++ http://boj.kr/69fae87f31fd48a19204f341d6e09a66
 C# 
 Python 
 Java 
