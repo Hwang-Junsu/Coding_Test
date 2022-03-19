@@ -14,8 +14,4 @@ Algorithm Study
 7. 최단 경로 찾기
 8. 기타 알고리즘
 
-List) 
-
-1. Dynamic Programming
-2. Graph Algorithm
-3. Brute Force, Greedy Algorith
+임시용
