@@ -72,7 +72,7 @@ Java
 Kotlin 
 
 5. 2xn 타일링2
-C/C++ 
+C/C++ http://boj.kr/d7c33d59e1cc43bd84c9093846b2ee7d
 C# 
 Python 
 Java 
