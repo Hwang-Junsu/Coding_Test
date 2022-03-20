@@ -43,6 +43,9 @@ Python http://boj.kr/43a502474ca140418c3bbdec54a63868
 Java http://boj.kr/9365a86ec6b5439fb777381c20cd44c6
 Kotlin http://boj.kr/cbe97cfa40bd4f6890684594b9ef3a9c
 
+
+Course 7-02
+
 1. 계단오르기
 C/C++ http://boj.kr/0ce1f811b9f04f52bbaef841d5a3c4c4
 C# http://boj.kr/1d16a0d76ffd4c799c473f1e540faca1
