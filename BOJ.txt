@@ -62,18 +62,18 @@ C/C++ http://boj.kr/06b7514316e043f49fb0555daf7fbd6e
 C# http://boj.kr/692cb9c1e4d84b878c2f00902958ed3c
 Python http://boj.kr/b3ced302cd55428c989d12504ce3c463
 Java http://boj.kr/65c0f959215f4e6a9e216b38b6612236
-Kotlin 
+Kotlin http://boj.kr/1ac6b9c233804746b35432f14a334237
 
 4. 2xn 타일링
 C/C++ http://boj.kr/69fae87f31fd48a19204f341d6e09a66
 C# http://boj.kr/0b8aa63f57904c2291c8699623abf6fe
 Python http://boj.kr/6fe42ca09b8d4a86af902c8534c9ef4e
 Java http://boj.kr/63982614b20540768bd69ac512053d92
-Kotlin 
+Kotlin http://boj.kr/67b7c599a4af4274afd983bdd8143b5f
 
 5. 2xn 타일링2
 C/C++ http://boj.kr/d7c33d59e1cc43bd84c9093846b2ee7d
 C# http://boj.kr/9d82fbd9c95047a49887b1f7c3cd706f
 Python http://boj.kr/2ec2014e0c2d4f5dbcbec66538bf1b74
 Java http://boj.kr/db73c86a7c7f41a9a500769bd0829a63
-Kotlin 
+Kotlin http://boj.kr/72f421fc4b9a45aaa66502b15c0a5f80
