@@ -46,7 +46,7 @@ Kotlin http://boj.kr/cbe97cfa40bd4f6890684594b9ef3a9c
 1. 계단오르기
 C/C++ http://boj.kr/0ce1f811b9f04f52bbaef841d5a3c4c4
 C# 
-Python 
+Python http://boj.kr/c02ec863af7c4767b89b1919adf97220
 Java 
 Kotlin 
 
