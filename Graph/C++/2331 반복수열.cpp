@@ -52,3 +52,6 @@ int main() {
     printf("%d", vt.size());
     
 }
+
+
+// http://boj.kr/7fa23971eeb542388c70ed5f34b26287
