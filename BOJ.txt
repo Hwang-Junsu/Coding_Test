@@ -92,7 +92,7 @@ Java
 Kotlin
 
 2. 늑대와 양
-C/C++ 
+C/C++ http://boj.kr/856392489a7d4b998ecdd35cf08a12ab
 C#
 Python
 Java
