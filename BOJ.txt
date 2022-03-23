@@ -80,3 +80,41 @@ C# http://boj.kr/9d82fbd9c95047a49887b1f7c3cd706f
 Python http://boj.kr/2ec2014e0c2d4f5dbcbec66538bf1b74
 Java http://boj.kr/db73c86a7c7f41a9a500769bd0829a63
 Kotlin http://boj.kr/72f421fc4b9a45aaa66502b15c0a5f80
+
+
+Course 8-01
+
+1. 반복수열
+C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
+C#
+Python
+Java
+Kotlin
+
+2. 늑대와 양
+C/C++ 
+C#
+Python
+Java
+Kotlin
+
+3. DFS와 BFS
+C/C++ 
+C#
+Python
+Java
+Kotlin
+
+4. 순열 사이클
+C/C++ 
+C#
+Python
+Java
+Kotlin
+
+5. 
+C/C++ 
+C#
+Python
+Java
+Kotlin
