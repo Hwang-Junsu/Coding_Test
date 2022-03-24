@@ -108,11 +108,11 @@ Kotlin
 4. 순열 사이클
 C/C++ http://boj.kr/64287e76eb0b4f44bc66a7091246ad95
 C#
-Python
+Python http://boj.kr/9e12d9314f0645de963e4e934180789d
 Java
 Kotlin
 
-5. 
+5. 섬의 개수
 C/C++ http://boj.kr/ff4dbdca14084ebc83d44a2945a1d021
 C#
 Python
