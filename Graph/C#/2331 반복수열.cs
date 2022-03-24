@@ -1,10 +1,10 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 
 class Program
 {
-    int cal(int num, int _p) {
+    static int Cal(int num, int _p) {
        
        int result = 0;
        int n = 0;
@@ -20,15 +20,26 @@ class Program
     static void Main() {
         string s = Console.ReadLine();
         string[] num = s.Split(" ");
-        ArrayList arr = new ArrayList();
-        bool[] visit = new bool[250000];
+        List<int> arr = new List<int>();
         int a = int.Parse(num[0]);
         int p = int.Parse(num[1]);
-        
+        int check = -1;
+        int answer = 0;
         arr.Add(a);
-        Console.WriteLine(arr[0]);
-        Console.WriteLine(cal(arr[0], p));
+        
+        while(true) {
+            int value = Cal(arr[arr.Count-1],p);
+            
+            if(arr.Contains(value)) {
+                check = value;
+                break;
+            }
+            else arr.Add(value);
+            
+        }
         
         
+        answer = arr.FindIndex(element => element == check);
+        Console.WriteLine(answer);
     }
 }
