@@ -86,7 +86,7 @@ Course 8-01
 
 1. 반복수열
 C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
-C#
+C# http://boj.kr/65b7668e9ada4f4cacec72fc6e0d54fe
 Python http://boj.kr/f694d31b515148a783ddfaf539b82add
 Java
 Kotlin
