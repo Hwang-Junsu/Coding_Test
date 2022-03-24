@@ -87,14 +87,14 @@ Course 8-01
 1. 반복수열
 C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
 C#
-Python
+Python http://boj.kr/f694d31b515148a783ddfaf539b82add
 Java
 Kotlin
 
 2. 늑대와 양
 C/C++ http://boj.kr/856392489a7d4b998ecdd35cf08a12ab
 C#
-Python
+Python http://boj.kr/dff194aeac9741a5b4829269472a830d
 Java
 Kotlin
 
