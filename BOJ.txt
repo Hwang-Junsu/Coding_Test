@@ -115,6 +115,6 @@ Kotlin
 5. 섬의 개수
 C/C++ http://boj.kr/ff4dbdca14084ebc83d44a2945a1d021
 C#
-Python
+Python http://boj.kr/5c11a273996844f38ffa2b28b13bcc9e
 Java
 Kotlin
