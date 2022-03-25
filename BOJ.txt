@@ -107,7 +107,7 @@ Kotlin
 
 4. 순열 사이클
 C/C++ http://boj.kr/64287e76eb0b4f44bc66a7091246ad95
-C#
+C# http://boj.kr/31f968c05153443193cf8ac6785abd49
 Python http://boj.kr/9e12d9314f0645de963e4e934180789d
 Java
 Kotlin
