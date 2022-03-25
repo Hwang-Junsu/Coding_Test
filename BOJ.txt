@@ -88,33 +88,33 @@ Course 8-01
 C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
 C# http://boj.kr/65b7668e9ada4f4cacec72fc6e0d54fe
 Python http://boj.kr/f694d31b515148a783ddfaf539b82add
-Java
+Java http://boj.kr/bdf49f41cbb54443b2814e0314cdc642
 Kotlin
 
 2. 늑대와 양
 C/C++ http://boj.kr/856392489a7d4b998ecdd35cf08a12ab
 C# http://boj.kr/aa39f75c81674c24a817d7df971def21
 Python http://boj.kr/dff194aeac9741a5b4829269472a830d
-Java
+Java http://boj.kr/df736b4d33cd47b39491fe1f8cda6a47
 Kotlin
 
 3. DFS와 BFS
 C/C++ http://boj.kr/8cdda1ad4d9945a0824d2d11efc7937e
 C# http://boj.kr/400aa8a3e86b4a7587dbbaba10df709a
 Python http://boj.kr/69f906c548de4585adbc09276cf7c98f
-Java
+Java http://boj.kr/92e17276517648e88e05d37823d67bcf
 Kotlin
 
 4. 순열 사이클
 C/C++ http://boj.kr/64287e76eb0b4f44bc66a7091246ad95
 C# http://boj.kr/31f968c05153443193cf8ac6785abd49
 Python http://boj.kr/9e12d9314f0645de963e4e934180789d
-Java
+Java http://boj.kr/0461f3e76af248428aac16ea96ae41c5
 Kotlin
 
 5. 섬의 개수
 C/C++ http://boj.kr/ff4dbdca14084ebc83d44a2945a1d021
 C# http://boj.kr/79655645bb9644f8b50340e59ad4e6c1
 Python http://boj.kr/5c11a273996844f38ffa2b28b13bcc9e
-Java
+Java http://boj.kr/efdcba255c1947079e40b95652a4fb0d
 Kotlin
