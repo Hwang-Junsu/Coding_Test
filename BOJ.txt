@@ -96,7 +96,7 @@ C/C++ http://boj.kr/856392489a7d4b998ecdd35cf08a12ab
 C# http://boj.kr/aa39f75c81674c24a817d7df971def21
 Python http://boj.kr/dff194aeac9741a5b4829269472a830d
 Java http://boj.kr/df736b4d33cd47b39491fe1f8cda6a47
-Kotlin
+Kotlin http://boj.kr/6eecd828a8e44091934e1dab6d58348f
 
 3. DFS와 BFS
 C/C++ http://boj.kr/8cdda1ad4d9945a0824d2d11efc7937e
