@@ -110,7 +110,7 @@ C/C++ http://boj.kr/64287e76eb0b4f44bc66a7091246ad95
 C# http://boj.kr/31f968c05153443193cf8ac6785abd49
 Python http://boj.kr/9e12d9314f0645de963e4e934180789d
 Java http://boj.kr/0461f3e76af248428aac16ea96ae41c5
-Kotlin
+Kotlin http://boj.kr/090d9f972c084958a6cbfbf0816d3cc3
 
 5. 섬의 개수
 C/C++ http://boj.kr/ff4dbdca14084ebc83d44a2945a1d021
