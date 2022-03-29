@@ -7,9 +7,9 @@ int board[51][51];
 int visited[51][51];
 int dx[8] = {-1, -1, 0, 1, 1, 1, 0, -1};
 int dy[8] = {0, 1, 1, 1, 0, -1, -1, -1};
-vector<pair<int, int>> sharkIndex;
 
 int bfs(pair<int, int> index) {
+    if(board[index.first][index.second] == 1) return 0;
     
     int safeDistance = 0;
     bool danger = false;
@@ -38,7 +38,7 @@ int bfs(pair<int, int> index) {
         
         if(danger) break;
     }
-    return safeDistance-1;
+    return safeDistance;
 }
 
 void init() {
@@ -47,33 +47,21 @@ void init() {
     }
 }
 
-void print() {
-    
-    for(int i = 0 ; i < h; i++) {
-        for(int j = 0; j < w; j++) {
-            cout << visited[i][j] << " ";
-        }
-        cout << '\n';
-    }
-    
-    cout << '\n';
-}
-
 int main() {
     cin >> h >> w;
     for(int i = 0 ; i < h; i++) {
         for(int j = 0 ; j < w; j++) {
             cin >> board[i][j];
-            if(board[i][j] == 1) sharkIndex.push_back(make_pair(i,j));
         }
     }
     
     int max_value = 0;
     
-    for(int i = 0; i < sharkIndex.size(); i++) {
-        max_value = max(max_value, bfs(make_pair(sharkIndex[i].first,sharkIndex[i].second)));
-        print();
-        init();
+    for(int i = 0; i < h; i++) {
+        for(int j = 0 ; j < w; j++) {
+            max_value = max(max_value, bfs(make_pair(i,j)));
+            init();
+        }
     }
     cout << max_value;
 }
