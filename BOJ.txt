@@ -122,7 +122,7 @@ Kotlin http://boj.kr/a7b49c733bdd4ecc9c07a81f3f2872a4
 Course 8-02
 1. 연결 요소의 개수
 C/C++ http://boj.kr/87bdd28b76394cc48af2583c7fcdc600
-C#
+C# http://boj.kr/7ddaf4f7df9549bd974b32ce3c9b12b2
 Python
 Java
 Kotlin
