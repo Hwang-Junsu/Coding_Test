@@ -149,7 +149,7 @@ Java
 Kotlin
 
 5. 숨바꼭질
-C/C++
+C/C++ http://boj.kr/5296909dbb5046b8b35610e2529ec5a4
 C#
 Python
 Java
