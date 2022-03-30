@@ -143,7 +143,7 @@ Kotlin
 
 4. 케빈 베이컨의 6단계 법칙
 C/C++ http://boj.kr/ee1b94d4ab07452e9a5c78a6c95e4c2a
-C#
+C# http://boj.kr/586af354f8a54ab19bb6a606a55c3fd1
 Python
 Java
 Kotlin
