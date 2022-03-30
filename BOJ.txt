@@ -129,7 +129,7 @@ Kotlin
 
 2. 트리의 부모 찾기
 C/C++ http://boj.kr/d27043784d6d400f9878cdb979c3f85f
-C#
+C# http://boj.kr/4631beecde2c49eba21ce52e0ef8ced5
 Python
 Java
 Kotlin
