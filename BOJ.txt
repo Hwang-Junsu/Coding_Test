@@ -139,14 +139,14 @@ C/C++ http://boj.kr/bbff256d25e64af4ae8a4690aac2dbe4
 C# http://boj.kr/64e31ea3eff34e869cf72b428c3b8d0b
 Python
 Java http://boj.kr/179eb56170f4418f8bb5a70a72ed77e8
-Kotlin
+Kotlin http://boj.kr/25de0803d9f242e7847539342be9e380
 
 4. 케빈 베이컨의 6단계 법칙
 C/C++ http://boj.kr/ee1b94d4ab07452e9a5c78a6c95e4c2a
 C# http://boj.kr/586af354f8a54ab19bb6a606a55c3fd1
 Python
 Java http://boj.kr/5a12276e9d5445358879ec86cbe70c92
-Kotlin
+Kotlin http://boj.kr/6742cacaa7ae4c6bbdbd17a219ea0971
 
 5. 숨바꼭질
 C/C++ http://boj.kr/5296909dbb5046b8b35610e2529ec5a4
