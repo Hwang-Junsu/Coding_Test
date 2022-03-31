@@ -125,7 +125,7 @@ C/C++ http://boj.kr/87bdd28b76394cc48af2583c7fcdc600
 C# http://boj.kr/7ddaf4f7df9549bd974b32ce3c9b12b2
 Python
 Java http://boj.kr/41d095a0a81145aeb52ebb060f17915a
-Kotlin
+Kotlin http://boj.kr/815bcb2299b840c1b65a5637c05249ce
 
 2. 트리의 부모 찾기
 C/C++ http://boj.kr/d27043784d6d400f9878cdb979c3f85f
