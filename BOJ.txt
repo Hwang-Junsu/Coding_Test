@@ -132,7 +132,7 @@ C/C++ http://boj.kr/d27043784d6d400f9878cdb979c3f85f
 C# http://boj.kr/4631beecde2c49eba21ce52e0ef8ced5
 Python
 Java http://boj.kr/a837f4c1d52e4c968f91e01b26d11282
-Kotlin
+Kotlin http://boj.kr/cbcaacbe432f4e02a27c86a00e1e06a1
 
 3. 아기 상어2
 C/C++ http://boj.kr/bbff256d25e64af4ae8a4690aac2dbe4
