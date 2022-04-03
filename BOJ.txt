@@ -171,7 +171,7 @@ Java
 Kotlin
 
 3. 일곱 난쟁이
-C/C++
+C/C++ http://boj.kr/4a62cbd970814745a95b05b429dd4050
 C#
 Python
 Java
