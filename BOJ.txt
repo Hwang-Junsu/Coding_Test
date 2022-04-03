@@ -158,7 +158,7 @@ Kotlin http://boj.kr/43e3becc7145467ead16cf0215c02699
 Course 9-01
 1. 대회 or 인턴
 C/C++ http://boj.kr/85e179aa6f32406ca7dc4d07b29ffe44
-C#
+C# http://boj.kr/c983c485c8564baca7a0bb83d7f733af
 Python
 Java
 Kotlin
