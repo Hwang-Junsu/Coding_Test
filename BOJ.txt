@@ -154,3 +154,39 @@ C# http://boj.kr/73a4cb1366714654995baaed9dad65ba
 Python http://boj.kr/38e96ad34c1a403aa86f238f5ec4038f
 Java http://boj.kr/a6c2f10d1e71400c9e8856a15e0abb57
 Kotlin http://boj.kr/43e3becc7145467ead16cf0215c02699
+
+Course 9-01
+1. 대회 or 인턴
+C/C++ http://boj.kr/85e179aa6f32406ca7dc4d07b29ffe44
+C#
+Python
+Java
+Kotlin
+
+2. 양념 반 후라이드 반
+C/C++ http://boj.kr/bf8c686261884a9aa1f56cffccea5266
+C#
+Python
+Java
+Kotlin
+
+3. 일곱 난쟁이
+C/C++
+C#
+Python
+Java
+Kotlin
+
+4. 차량 번호판 1
+C/C++
+C#
+Python
+Java
+Kotlin
+
+5. 날짜 계산
+C/C++
+C#
+Python
+Java
+Kotlin
