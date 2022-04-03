@@ -159,34 +159,34 @@ Course 9-01
 1. 대회 or 인턴
 C/C++ http://boj.kr/85e179aa6f32406ca7dc4d07b29ffe44
 C# http://boj.kr/c983c485c8564baca7a0bb83d7f733af
-Python
-Java
-Kotlin
+Python http://boj.kr/c7b85ff64c474445b887c41e925101d7
+Java http://boj.kr/ee0852f72c6243f48c22a0e4615a1daa
+Kotlin http://boj.kr/86655ed739b54ee18dea66c3c29ee1e9
 
 2. 양념 반 후라이드 반
 C/C++ http://boj.kr/bf8c686261884a9aa1f56cffccea5266
 C# http://boj.kr/defabf193f3b44beb140d485db09ffd4
-Python
-Java
-Kotlin
+Python http://boj.kr/9cfadd3e76374624b0e8977431beefd9
+Java http://boj.kr/cd28bdeeb51b4e9cb68ce7409796334f
+Kotlin http://boj.kr/b7da3b8ad5964d37a8425605b67145f4
 
 3. 일곱 난쟁이
 C/C++ http://boj.kr/4a62cbd970814745a95b05b429dd4050
 C# http://boj.kr/56511f3323604b9eab5d491be7ae751e
-Python
-Java
-Kotlin
+Python http://boj.kr/05aa310d601f4f1394b9bb42967b4307
+Java http://boj.kr/ccea2da1444d4d12b8aed662c7e987ea
+Kotlin http://boj.kr/70da19913d9642d583c19097932667dd
 
 4. 차량 번호판 1
 C/C++ http://boj.kr/9fec7bbc1c3c41e59b8cf2f7c1204539
 C# http://boj.kr/d84c61ff05ae4d889281cc541d2e557d
-Python
-Java
-Kotlin
+Python http://boj.kr/ec094ee05e9f4523ba35813159f9af81
+Java http://boj.kr/914ebf1697b84985bae30ec7699dfe9e
+Kotlin http://boj.kr/b2f0a4f1708d46508962c4f50c866b31
 
 5. 날짜 계산
 C/C++ http://boj.kr/e6ad887dc36f48728b4708f371e7a7c4
 C# http://boj.kr/e3598acce0d34d118ce572271da2cded
-Python
-Java
-Kotlin
+Python http://boj.kr/5a43d7184fb5432b948b8e2297bf0b07
+Java http://boj.kr/d42c8c8b99034ef59ee68a4654b31997
+Kotlin http://boj.kr/636afdec6611467b98e9677ca4a5b468
