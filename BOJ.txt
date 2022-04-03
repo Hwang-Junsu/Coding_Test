@@ -165,28 +165,28 @@ Kotlin
 
 2. 양념 반 후라이드 반
 C/C++ http://boj.kr/bf8c686261884a9aa1f56cffccea5266
-C#
+C# http://boj.kr/defabf193f3b44beb140d485db09ffd4
 Python
 Java
 Kotlin
 
 3. 일곱 난쟁이
 C/C++ http://boj.kr/4a62cbd970814745a95b05b429dd4050
-C#
+C# http://boj.kr/56511f3323604b9eab5d491be7ae751e
 Python
 Java
 Kotlin
 
 4. 차량 번호판 1
 C/C++ http://boj.kr/9fec7bbc1c3c41e59b8cf2f7c1204539
-C#
+C# http://boj.kr/d84c61ff05ae4d889281cc541d2e557d
 Python
 Java
 Kotlin
 
 5. 날짜 계산
 C/C++ http://boj.kr/e6ad887dc36f48728b4708f371e7a7c4
-C#
+C# http://boj.kr/e3598acce0d34d118ce572271da2cded
 Python
 Java
 Kotlin
