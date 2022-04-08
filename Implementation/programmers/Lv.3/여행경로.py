@@ -11,8 +11,6 @@ def dfs(start, graph) :
 
     return answer[::-1]
 
-    
-
 
 def solution(tickets):
     answer = []
@@ -27,3 +25,31 @@ def solution(tickets):
 
 
     return dfs("ICN", graph)
+
+#######################################################################
+from collections import defaultdict
+
+def dfs(v, graph, answer, visited) :
+    if len(graph[v]) == 0 :
+        answer.append(visited.pop())
+        if len(visited) == 0 : return
+        else : dfs(visited[-1], graph, answer, visited)
+        return
+    
+    visited.append(graph[v].pop(0))
+    dfs(visited[-1], graph, answer, visited)
+    
+
+
+def solution(tickets):
+    answer = []
+    graph = defaultdict(list)
+    visited = ["ICN"]
+    for k, v in tickets :
+        graph[k].append(v)
+        
+    for x in graph.keys() :
+        graph[x].sort()
+
+    dfs("ICN", graph, answer, visited)
+    return answer[::-1]
