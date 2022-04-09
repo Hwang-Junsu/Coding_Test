@@ -190,3 +190,40 @@ C# http://boj.kr/e3598acce0d34d118ce572271da2cded
 Python http://boj.kr/5a43d7184fb5432b948b8e2297bf0b07
 Java http://boj.kr/d42c8c8b99034ef59ee68a4654b31997
 Kotlin http://boj.kr/636afdec6611467b98e9677ca4a5b468
+
+Course 9-02
+1. 한윤정 이탈리아 아이스크림
+C/C++ http://boj.kr/4afe58ef55cf49cca1f88c2c6df16796
+C# 
+Python 
+Java 
+Kotlin 
+
+2. 30
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+3. 집합
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+4. 매직 스퀘어로 변경하기
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
+5. 병든 나이트
+C/C++ 
+C# 
+Python 
+Java 
+Kotlin 
+
