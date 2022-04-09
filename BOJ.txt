@@ -200,7 +200,7 @@ Java
 Kotlin 
 
 2. 30
-C/C++ 
+C/C++ http://boj.kr/a170614e2b764194a19330efedb263c1
 C# 
 Python 
 Java 
