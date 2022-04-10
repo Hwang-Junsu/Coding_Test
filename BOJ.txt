@@ -1,4 +1,4 @@
-Course 7-01
+DP.
 
 1. 피보나치수
  
@@ -43,9 +43,6 @@ Python http://boj.kr/43a502474ca140418c3bbdec54a63868
 Java http://boj.kr/9365a86ec6b5439fb777381c20cd44c6
 Kotlin http://boj.kr/cbe97cfa40bd4f6890684594b9ef3a9c
 
-
-Course 7-02
-
 1. 계단오르기
 C/C++ http://boj.kr/0ce1f811b9f04f52bbaef841d5a3c4c4
 C# http://boj.kr/1d16a0d76ffd4c799c473f1e540faca1
@@ -82,7 +79,7 @@ Java http://boj.kr/db73c86a7c7f41a9a500769bd0829a63
 Kotlin http://boj.kr/72f421fc4b9a45aaa66502b15c0a5f80
 
 
-Course 8-01
+BFS/DFS.
 
 1. 반복수열
 C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
@@ -119,7 +116,6 @@ Python http://boj.kr/5c11a273996844f38ffa2b28b13bcc9e
 Java http://boj.kr/efdcba255c1947079e40b95652a4fb0d
 Kotlin http://boj.kr/a7b49c733bdd4ecc9c07a81f3f2872a4
 
-Course 8-02
 1. 연결 요소의 개수
 C/C++ http://boj.kr/87bdd28b76394cc48af2583c7fcdc600
 C# http://boj.kr/7ddaf4f7df9549bd974b32ce3c9b12b2
@@ -155,7 +151,7 @@ Python http://boj.kr/38e96ad34c1a403aa86f238f5ec4038f
 Java http://boj.kr/a6c2f10d1e71400c9e8856a15e0abb57
 Kotlin http://boj.kr/43e3becc7145467ead16cf0215c02699
 
-Course 9-01
+Greedy & Brute Force
 1. 대회 or 인턴
 C/C++ http://boj.kr/85e179aa6f32406ca7dc4d07b29ffe44
 C# http://boj.kr/c983c485c8564baca7a0bb83d7f733af
