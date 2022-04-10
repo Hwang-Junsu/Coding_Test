@@ -221,7 +221,7 @@ Java
 Kotlin 
 
 5. 병든 나이트
-C/C++ 
+C/C++ http://boj.kr/e4924632aa9c4cf69b492af0a1e14dde
 C# 
 Python 
 Java 
