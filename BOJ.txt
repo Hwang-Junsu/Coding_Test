@@ -215,7 +215,7 @@ Kotlin
 
 4. 매직 스퀘어로 변경하기
 C/C++ http://boj.kr/a4d53dd0a99e4477985fdbe6546d15b9
-C# 
+C# http://boj.kr/bd95c0cb3c9f403ca1bb3a089cad123b
 Python 
 Java 
 Kotlin 
