@@ -214,12 +214,12 @@ C/C++ http://boj.kr/a4d53dd0a99e4477985fdbe6546d15b9
 C# http://boj.kr/bd95c0cb3c9f403ca1bb3a089cad123b
 Python 
 Java http://boj.kr/d07a08c7d6834fdcb58bdfff1aebd138
-Kotlin 
+Kotlin http://boj.kr/1ec7082f8e4b4f159d452371b0b91753
 
 5. 병든 나이트
 C/C++ http://boj.kr/e4924632aa9c4cf69b492af0a1e14dde
 C# http://boj.kr/7123b5718aa44a9dbfcf464764c68b66
 Python 
 Java http://boj.kr/0ee984f237a742058105dd043ea05cd8
-Kotlin 
+Kotlin http://boj.kr/12a2872e88b740c898a5df437b05443e
 
