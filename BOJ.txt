@@ -212,7 +212,7 @@ Kotlin http://boj.kr/e16566c9854146d796bdcf644f59f325
 4. 매직 스퀘어로 변경하기
 C/C++ http://boj.kr/a4d53dd0a99e4477985fdbe6546d15b9
 C# http://boj.kr/bd95c0cb3c9f403ca1bb3a089cad123b
-Python 
+Python http://boj.kr/1beb3b322c514e3482bdb75ff54b1225
 Java http://boj.kr/d07a08c7d6834fdcb58bdfff1aebd138
 Kotlin http://boj.kr/1ec7082f8e4b4f159d452371b0b91753
 
