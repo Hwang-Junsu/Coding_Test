@@ -191,7 +191,7 @@ Course 9-02
 1. 한윤정 이탈리아 아이스크림
 C/C++ http://boj.kr/4afe58ef55cf49cca1f88c2c6df16796
 C# http://boj.kr/cc2c656ed5844b27a6e49102bf0040ee
-Python 
+Python http://boj.kr/f4e46e5f31624481b8c008d77f525bc2
 Java http://boj.kr/9dfce47efeb646009f544e124a5877fc
 Kotlin http://boj.kr/d3269a33aa5c44549b4b9911a3c02b0a
 
