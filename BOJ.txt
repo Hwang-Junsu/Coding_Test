@@ -205,7 +205,7 @@ Kotlin http://boj.kr/73f601cda77a49f5a569332f35b1db66
 3. 집합
 C/C++ http://boj.kr/8c73d28c6e7f45d3949f4bd04b6505b6
 C# http://boj.kr/9bb7e306551a49f8b83d6c770d090e11
-Python 
+Python http://boj.kr/7daa367cb2bc4182a98650dc531071c4
 Java http://boj.kr/27d44733a90e4992b3b691e9585eefe7
 Kotlin http://boj.kr/e16566c9854146d796bdcf644f59f325
 
