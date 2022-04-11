@@ -192,7 +192,7 @@ Course 9-02
 C/C++ http://boj.kr/4afe58ef55cf49cca1f88c2c6df16796
 C# http://boj.kr/cc2c656ed5844b27a6e49102bf0040ee
 Python 
-Java 
+Java http://boj.kr/9dfce47efeb646009f544e124a5877fc
 Kotlin 
 
 2. 30
