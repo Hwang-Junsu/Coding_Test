@@ -219,7 +219,7 @@ Kotlin http://boj.kr/1ec7082f8e4b4f159d452371b0b91753
 5. 병든 나이트
 C/C++ http://boj.kr/e4924632aa9c4cf69b492af0a1e14dde
 C# http://boj.kr/7123b5718aa44a9dbfcf464764c68b66
-Python 
+Python http://boj.kr/92beb2e7e17747beaa8265a92128733a
 Java http://boj.kr/0ee984f237a742058105dd043ea05cd8
 Kotlin http://boj.kr/12a2872e88b740c898a5df437b05443e
 
