@@ -26,3 +26,6 @@ def solution(orders, course):
         
         
     return answer
+
+
+# combination과 hash를 이용한 완전탐색 문제.
