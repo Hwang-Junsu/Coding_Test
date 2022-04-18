@@ -1,76 +1,127 @@
 def solution(name):
-    answer = 0
-    answer_list = []
-
-    dic = {}
-    length = len(name)
-    for i in range(26) :
-        dic[chr(65+i)] = i
-    setting = [dic[c] for c in name]
-    con_name = [0 for i in range(length)]
+    answer = []
+    horizon = 0; vertical = 0;
+    for ch in name :
+        count = (ord(ch) - ord('A')) if ord('O') > ord(ch) else (ord('Z') - ord('A')) - ((ord(ch) - ord('A')) - 1)
+        horizon += count
     
-    if con_name == setting :
-        return 0
-    check = [False for i in range(length)]
-    for i in range(length) :
-        if setting[i] > 0 :
-            check[i] = True
-    
-    
-    for i in range(2) :
-        cursor = 0
-        answer = 0
-        con_name = [0 for i in range(length)]
-        check = [False for i in range(length)]
-        for j in range(length) :
-            if setting[j] > 0 :
-                check[j] = True
-
+    for i in range(4) :
+        vertical = 0;
+        string = ['A' for _ in range(len(name))]
+        visited = [False for _ in range(len(name))]
+        namel = [ch for ch in name]
+        count = 0
+        string[0] = namel[0]; visited[0] = True
+        Rcursor = 0; Lcursor = 0        
+        
         while True :
-            if setting[cursor] > 26//2 :
-                answer += 26-setting[cursor]
-                con_name[cursor] = setting[cursor]
-                check[cursor] = False
-            else :
-                answer += setting[cursor]
-                con_name[cursor] = setting[cursor]
-                check[cursor] = False
-
-            if True not in check :
-                break
-
-
-            # 커서의 이동 알고리즘
-            front = cursor #커서의 위치
-            back = cursor
-            front_move = 0 #커서 이동의 횟수
-            back_move = 0
+            if string == namel : break
+            LR_count = [0,0]
+            save = Rcursor
+            disR = 0
             while True :
-                front += 1
-                if front > length-1 :
-                    front = 0
-                front_move += 1
-                if setting[front] != 0 and check[front]:
+                Rcursor += 1
+                disR += 1
+                if Rcursor > len(name)-1 : Rcursor = 0
+                if Rcursor == save : break
+                if name[Rcursor] != 'A' and visited[Rcursor] == False :
+                    LR_count[1] = disR
                     break
-
+            save = Lcursor
+            disL = 0
             while True :
-                back -= 1
-                if back < 0 :
-                    back = length-1
-                back_move += 1
-                if setting[back] != 0 and check[back] :
+                Lcursor -= 1
+                disL += 1
+                if Lcursor < 0 : Lcursor = len(name)-1
+                if Lcursor == save : break
+                if name[Lcursor] != 'A' and visited[Lcursor] == False :
+                    LR_count[0] = disL
                     break
-            
             if i == 0 :
-                cursor = front if front_move < back_move else back
-                answer += front_move if front_move < back_move else back_move
-            
-            if i == 1 :
-                cursor = front if front_move <= back_move else back
-                answer += front_move if front_move <= back_move else back_move
-        answer_list.append(answer)
-    
-    return min(answer_list)
-    
-   
-   # 현재의 상황에서 최적의 해를 구해가는 Greedy 문제이나, 그 해가 최적이라는 보장을 해줄 수 있을까?
+                if LR_count[0] <= LR_count[1] :
+                    string[Lcursor] = namel[Lcursor]
+                    visited[Lcursor] = True
+                    Rcursor = Lcursor; vertical += disL
+                elif LR_count[0] > LR_count[1] :
+                    string[Rcursor] = namel[Rcursor]
+                    visited[Rcursor] = True
+                    Lcursor = Rcursor; vertical += disR
+            elif i == 1 :
+                if LR_count[0] < LR_count[1] :
+                    string[Lcursor] = namel[Lcursor]
+                    visited[Lcursor] = True
+                    Rcursor = Lcursor; vertical += disL
+                elif LR_count[0] >= LR_count[1] :
+                    string[Rcursor] = namel[Rcursor]
+                    visited[Rcursor] = True
+                    Lcursor = Rcursor; vertical += disR
+            elif i == 2 :
+                if LR_count[0] < LR_count[1] + 2:
+                    string[Lcursor] = namel[Lcursor]
+                    visited[Lcursor] = True
+                    Rcursor = Lcursor; vertical += disL
+                elif LR_count[0] > LR_count[1] :
+                    string[Rcursor] = namel[Rcursor]
+                    visited[Rcursor] = True
+                    Lcursor = Rcursor; vertical += disR
+                else :
+                    rt = Rcursor; lt = Lcursor;
+                    rc = 0; lc = 0;
+                    while True :
+                        lt -= 1
+                        if lt < 0 : lt = len(name)-1
+                        if Lcursor == lt : break
+                        if namel[lt] != 'A' and visited[lt] == False :
+                            lc += 1
+                    while True :
+                        rt += 1
+                        if rt > len(name)-1 : rt = 0
+                        if Lcursor == rt : break
+                        if namel[rt] != 'A' and visited[rt] == False :
+                            rc += 1; 
+                    if lc >= rc :
+                        string[Lcursor] = namel[Lcursor]
+                        visited[Lcursor] = True
+                        Rcursor = Lcursor; vertical += disL
+                    else :
+                        string[Rcursor] = namel[Rcursor]
+                        visited[Rcursor] = True
+                        Lcursor = Rcursor; vertical += disR 
+                        
+            elif i == 3 :
+                if LR_count[0] < LR_count[1] - 2 :
+                    string[Lcursor] = namel[Lcursor]
+                    visited[Lcursor] = True
+                    Rcursor = Lcursor; vertical += disL
+                elif LR_count[0] > LR_count[1] :
+                    string[Rcursor] = namel[Rcursor]
+                    visited[Rcursor] = True
+                    Lcursor = Rcursor; vertical += disR
+                else :
+                    rt = Rcursor; lt = Lcursor;
+                    rc = 0; lc = 0;
+                    while True :
+                        lt -= 1
+                        if lt < 0 : lt = len(name)-1
+                        if Lcursor == lt : break
+                        if namel[lt] != 'A' and visited[lt] == False :
+                            lc += 1
+                    while True :
+                        rt += 1
+                        if rt > len(name)-1 : rt = 0
+                        if Lcursor == rt : break
+                        if namel[rt] != 'A' and visited[rt] == False :
+                            rc += 1; 
+                    if lc < rc :
+                        string[Lcursor] = namel[Lcursor]
+                        visited[Lcursor] = True
+                        Rcursor = Lcursor; vertical += disL
+                    else :
+                        string[Rcursor] = namel[Rcursor]
+                        visited[Rcursor] = True
+                        Lcursor = Rcursor; vertical += disR 
+        answer.append(horizon + vertical)
+
+    return min(answer)
+
+# 모든 테스트케이스를 넣어서 억지로 풀었음. 다시 풀어야할듯 함.
