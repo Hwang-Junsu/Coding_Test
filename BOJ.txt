@@ -1,3 +1,45 @@
+Impletation, Math.
+
+1. 수 이어 쓰기1
+
+C/C++ http://boj.kr/be3a1838a11747ab8cb68b5855f6d0d7
+C#
+Python
+Java
+Kotlin
+
+2. 영식이의 손가락
+
+C/C++ http://boj.kr/4c69dd855979428db11f9f96ed11723f
+C#
+Python
+Java
+Kotlin
+
+3. 조합 0의 개수
+
+C/C++
+C#
+Python
+Java
+Kotlin
+
+4. 베르트랑 공준
+
+C/C++
+C#
+Python
+Java
+Kotlin
+
+5. 골드바흐의 추측
+
+C/C++
+C#
+Python
+Java
+Kotlin
+
 DP.
 
 1. 피보나치수
