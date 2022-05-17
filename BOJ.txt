@@ -18,7 +18,7 @@ Kotlin
 
 3. 조합 0의 개수
 
-C/C++
+C/C++ http://boj.kr/48a0f3fbf5f34b9f95d0bf3ede8adb38
 C#
 Python
 Java
@@ -34,7 +34,7 @@ Kotlin
 
 5. 골드바흐의 추측
 
-C/C++
+C/C++ http://boj.kr/5198c8be02df4570b93493f6db7426a5
 C#
 Python
 Java
