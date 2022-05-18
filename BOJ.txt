@@ -35,7 +35,7 @@ Kotlin
 5. 골드바흐의 추측
 
 C/C++ http://boj.kr/5198c8be02df4570b93493f6db7426a5
-C#
+C# http://boj.kr/ba5a7d759c024414b493c549d80f5904
 Python
 Java
 Kotlin
