@@ -27,7 +27,7 @@ Kotlin
 4. 베르트랑 공준
 
 C/C++ http://boj.kr/efcc8c6a09984dd0bd146c631a7f7928
-C#
+C# http://boj.kr/64c23040dece483588c20eea63afd79a
 Python
 Java
 Kotlin
