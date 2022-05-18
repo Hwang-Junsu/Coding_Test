@@ -19,7 +19,7 @@ Kotlin
 3. 조합 0의 개수
 
 C/C++ http://boj.kr/48a0f3fbf5f34b9f95d0bf3ede8adb38
-C#
+C# http://boj.kr/03da1f968e8346f7b2140000839fc245
 Python
 Java
 Kotlin
