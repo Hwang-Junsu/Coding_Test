@@ -4,7 +4,7 @@ Impletation, Math.
 
 C/C++ http://boj.kr/be3a1838a11747ab8cb68b5855f6d0d7
 C# http://boj.kr/429e8841a0ea4aac94ab09e2699ca49d
-Python
+Python http://boj.kr/0fbde20d55a548fd9840ee13acdbe45b
 Java
 Kotlin
 
@@ -12,7 +12,7 @@ Kotlin
 
 C/C++ http://boj.kr/4c69dd855979428db11f9f96ed11723f
 C# http://boj.kr/2959942642e649ceba44941962830cac
-Python
+Python http://boj.kr/4a339e32d6bb49bf9db311dd93fcc254
 Java
 Kotlin
 
