@@ -36,7 +36,7 @@ Kotlin
 
 C/C++ http://boj.kr/5198c8be02df4570b93493f6db7426a5
 C# http://boj.kr/ba5a7d759c024414b493c549d80f5904
-Python
+Python http://boj.kr/81fee04217174e3fb690ab33af2a37eb
 Java
 Kotlin
 
