@@ -20,7 +20,7 @@ Kotlin
 
 C/C++ http://boj.kr/48a0f3fbf5f34b9f95d0bf3ede8adb38
 C# http://boj.kr/03da1f968e8346f7b2140000839fc245
-Python
+Python http://boj.kr/cfac740484414ef78828cc565eb66f6c
 Java
 Kotlin
 
@@ -28,7 +28,7 @@ Kotlin
 
 C/C++ http://boj.kr/efcc8c6a09984dd0bd146c631a7f7928
 C# http://boj.kr/64c23040dece483588c20eea63afd79a
-Python
+Python http://boj.kr/4c641aabb38e492b9c3e91db9e31a88a
 Java
 Kotlin
 
