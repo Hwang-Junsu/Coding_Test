@@ -21,8 +21,8 @@ Kotlin http://boj.kr/26f2de434967475daa62607d226211d5
 C/C++ http://boj.kr/48a0f3fbf5f34b9f95d0bf3ede8adb38
 C# http://boj.kr/03da1f968e8346f7b2140000839fc245
 Python http://boj.kr/cfac740484414ef78828cc565eb66f6c
-Java
-Kotlin
+Java http://boj.kr/44e5ba19ad57492a8d7970c13cc4bdd6
+Kotlin http://boj.kr/11e405a36c5e42da892d030d07bbe559
 
 4. 베르트랑 공준
 
