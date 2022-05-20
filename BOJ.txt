@@ -13,8 +13,8 @@ Kotlin http://boj.kr/cf43eca81920481e8eee80ae3d92c661
 C/C++ http://boj.kr/4c69dd855979428db11f9f96ed11723f
 C# http://boj.kr/2959942642e649ceba44941962830cac
 Python http://boj.kr/4a339e32d6bb49bf9db311dd93fcc254
-Java
-Kotlin
+Java http://boj.kr/32c94d9d7b474d18ae880b6d5c286a3b
+Kotlin http://boj.kr/26f2de434967475daa62607d226211d5
 
 3. 조합 0의 개수
 
