@@ -5,8 +5,8 @@ Impletation, Math.
 C/C++ http://boj.kr/be3a1838a11747ab8cb68b5855f6d0d7
 C# http://boj.kr/429e8841a0ea4aac94ab09e2699ca49d
 Python http://boj.kr/0fbde20d55a548fd9840ee13acdbe45b
-Java
-Kotlin
+Java http://boj.kr/a6a106b666d8468eb45c50121cf07e7a
+Kotlin http://boj.kr/cf43eca81920481e8eee80ae3d92c661
 
 2. 영식이의 손가락
 
