@@ -29,16 +29,16 @@ Kotlin http://boj.kr/11e405a36c5e42da892d030d07bbe559
 C/C++ http://boj.kr/efcc8c6a09984dd0bd146c631a7f7928
 C# http://boj.kr/64c23040dece483588c20eea63afd79a
 Python http://boj.kr/4c641aabb38e492b9c3e91db9e31a88a
-Java
-Kotlin
+Java http://boj.kr/2c9d73404a2c45f58f86ffa41711bd1b
+Kotlin http://boj.kr/3820e52fe47d4ee9bf2ea1eee0a26647
 
 5. 골드바흐의 추측
 
 C/C++ http://boj.kr/5198c8be02df4570b93493f6db7426a5
 C# http://boj.kr/ba5a7d759c024414b493c549d80f5904
 Python http://boj.kr/81fee04217174e3fb690ab33af2a37eb
-Java
-Kotlin
+Java http://boj.kr/be53fa3650744d73b698509a7ae28121
+Kotlin http://boj.kr/244c61973be14e6c90ccfa9e36761024
 
 DP.
 
