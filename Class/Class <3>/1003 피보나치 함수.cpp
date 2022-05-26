@@ -1,3 +1,8 @@
+// 자료구조 - Vector
+// 알고리즘 - DP
+// 풀이 - 처음에는 직접 0과 1을 재귀함수를 통해 vector<pair>>에 기록하면서 하려고 했으나, 복잡해짐.
+// 0과 1의 개수가 규칙적으로 피보나치함수와 동일하게 증가함을 다시 상기시켜 DP적용함.
+
 #include <bits/stdc++.h>
 
 using namespace std;
