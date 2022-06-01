@@ -1,3 +1,5 @@
+// 브루트포스.. 완전탐색 
+
 #include <bits/stdc++.h>
 
 using namespace std;
