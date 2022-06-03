@@ -3,19 +3,11 @@
 using namespace std;
 
 vector<vector<int>> graph(10000);
+bool vi[10000];
 
-bool check(vector<int> vt) {
-    int start = vt[0];
-    for(int i = 1 ; i < vt.size(); i++) {
-        if(vt[i] != start) return false;
-    }
-    return true;
-}
 
 int D(int num) {
-    int n = num * 2;
-    if(n > 10000) n %= 10000;
-    return n;
+    return (num*2) % 10000;
 }
 int S(int num) {
     int n = num-1;
@@ -23,45 +15,43 @@ int S(int num) {
     return n;
 }
 int L(int num) {
-    if(num < 10) return -1;
-    vector<int> temp;
+    deque<int> temp;
     string s = "";
     while(num != 0) {
-        temp.push_back(num%10);
+        temp.push_front(num%10);
         num /= 10;
     }
-    if(check(temp)) return -1;
-    int length = temp.size();
-    
-    for(int i = length-2; i >= 0; i--) {
-        s += (temp[i] + '0');
+    while(temp.size() != 4) {
+        temp.push_front(0);
     }
-    s += (temp[length-1]+'0');
-    
+    for(int i = 1; i < 4; i++) {
+        s += temp[i]+'0';
+    }
+    s += temp[0]+'0';
     return stoi(s);
+    
 }
 int R(int num) {
-    if(num < 10) return -1;
-    vector<int> temp;
+    deque<int> temp;
     string s = "";
     while(num != 0) {
-        temp.push_back(num%10);
+        temp.push_front(num%10);
         num /= 10;
     }
-    if(check(temp)) return -1;
-    int length = temp.size();
-    
-    s += (temp[0]+'0');
-    for(int i = length-1; i > 0; i--) {
-        s += (temp[i] + '0');
+    while(temp.size() != 4) {
+        temp.push_front(0);
     }
-    
+    s += temp[temp.size()-1]+'0';
+    for(int i = 0; i < 3; i++) {
+        s += temp[i]+'0';
+    }
     return stoi(s);
 }
 
 
 void bfs(string visited[], int start, int end) {
     
+    vi[start] = true;
     deque<int> queue;
     queue.push_back(start);
     bool stop = false;
@@ -69,9 +59,9 @@ void bfs(string visited[], int start, int end) {
         
         int v = queue.front(); queue.pop_front();
         if(v == end) stop = true;
+
         for(int i = 0 ; i < 4; i++) {
-            if(graph[v][i] == -1) continue;
-            if(visited[graph[v][i]] == "") {
+            if(!vi[graph[v][i]]) {
                 visited[graph[v][i]] += visited[v];
                 
                 if(i == 0) {
@@ -90,6 +80,7 @@ void bfs(string visited[], int start, int end) {
                     visited[graph[v][i]] += "R";
                     queue.push_back(graph[v][i]);
                 }
+                vi[graph[v][i]] = true;
             }
             if(stop) break;
         }
@@ -101,7 +92,6 @@ void bfs(string visited[], int start, int end) {
 
 int main() {
     int t; cin >> t;
-    string answer = "";
     string vis[10000];
     for(int i = 0 ; i < 10000; i++) {
         graph[i].push_back(D(i));
@@ -115,12 +105,12 @@ int main() {
         int a,b; cin >> a >> b;
         
         for(int i = 0 ; i < 10000; i++) {
+            vi[i] = false;
             vis[i] = "";
         }
+
         bfs(vis, a, b);
         cout << vis[b] << '\n';
     }
-    for(int i = 0; i < 4; i++) {
-        cout << graph[1111][i] << " ";
-    }
+    
 }
