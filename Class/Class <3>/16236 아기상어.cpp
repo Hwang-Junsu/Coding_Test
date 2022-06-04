@@ -87,7 +87,7 @@ int main() {
         visitedInit();
         clear();
         findDistance(shark.first, shark.second, size);
-        if(pq.empty()) break;
+        if(pq.empty()) break; // 잡을 물고기가 없으면 멈춤.
         int fishDist = get<0>(pq.top()); int fishX = get<1>(pq.top()); int fishY = get<2>(pq.top());
         answer += fishDist; shark.first = fishX; shark.second = fishY; board[shark.first][shark.second] = 0;
         if(++count == size) {
