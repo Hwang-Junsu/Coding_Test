@@ -1,32 +1,31 @@
+// dfs를 2번 이용하자.
+// 먼저 임의의 노드 a에서 가장 먼 노드를 찾는다.
+// 가장 먼 노드 b에서 가장 먼 노드를 찾고 그 거리를 계산한다.
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 map<int, vector<pair<int, int>>> graph;
-vector<int> save;
 bool visited[10001];
-int length = 0;
+int dist[10001];
 
 
-void dfs(int v, int now) {
+void dfs(int v) {
     visited[v] = true;
     
     for(auto x : graph[v]) {
         if(!visited[x.first]) {
-            length += x.second;
-            dfs(x.first, x.second);
+            dist[x.first] = dist[v] + x.second;
+            dfs(x.first);
         }
-    }
-    if(save.size() > 0) {
-        if(save.back() < length) {
-            save.push_back(length);
-            length -= now;
-        }
-    } else {
-        save.push_back(length);
-        length -= now;
     }
     
+}
+
+void init() {
+    memset(dist, 0, sizeof(dist));
+    memset(visited, false, sizeof(visited));
 }
 
 
@@ -40,10 +39,18 @@ int main() {
         graph[start].push_back(make_pair(end,c));
         graph[end].push_back(make_pair(start,c));
     }
-    dfs(1, 0);
-    
-    for(int i = 0 ; i < save.size(); i++) {
-        cout << save[i] << " ";
+    dfs(1);
+    int furthest = dist[0];
+    for(int i = 2 ; i <= n; i++) {
+        if(dist[furthest] < dist[i]) {
+            furthest = i;
+        }
     }
+    init();
+    dfs(furthest);
+    for(int i = 1 ; i <= n; i++) {
+        answer = max(answer, dist[i]);
+    }
+    cout << answer;
 
 }
