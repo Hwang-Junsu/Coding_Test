@@ -16,7 +16,21 @@ int main() {
         }
         int p; cin >> p;
         
-        
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= p; j++) {
+                
+                if(j % c[i] == 0) {
+                    
+                    dp[i][j] = max(dp[i-1][j]);
+                    
+                    
+                } else {
+                    
+                    dp[i][j] = dp[i-1][j];
+                    
+                }
+            }
+        }
         
         
         
