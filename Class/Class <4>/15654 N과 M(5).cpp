@@ -33,6 +33,6 @@ int main() {
         vt.push_back(num);
     }
     sort(vt.begin(), vt.end());
-    
+
     dfs(0, 0, "");
 }
