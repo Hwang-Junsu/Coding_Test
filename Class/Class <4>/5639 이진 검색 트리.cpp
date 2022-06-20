@@ -18,7 +18,6 @@ void dfs(int v) {
     cout << v << '\n';
     
 }
-
 int main() {
     int start; cin >> start;
     stack<int> parent; parent.push(start);
