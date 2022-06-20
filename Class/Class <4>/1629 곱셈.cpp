@@ -15,7 +15,6 @@ long long mypow(long long num, long long p) {
     return (temp * temp) % c;
 }
 
-
 int main() {
     cin >> a >> b >> c;
     
