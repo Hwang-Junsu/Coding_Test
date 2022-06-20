@@ -25,8 +25,6 @@ void bfs(long long start) {
             queue.push_back(v*10 + 1);
         }
     }
-    
-    
 }
 
 int main() {
