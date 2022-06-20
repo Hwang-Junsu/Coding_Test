@@ -95,7 +95,6 @@ int main() {
     for(int i = 0 ; i < m; i++) {
         index.push_back(1);
     }
-    
     do {
         init();
         
