@@ -1,4 +1,3 @@
-// 다익스트라 알고리즘.
 
 #include <bits/stdc++.h>
 #define INF 2147483647
