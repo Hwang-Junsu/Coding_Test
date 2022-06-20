@@ -30,7 +30,6 @@ int main() {
             dp[0][i] = max(dp[1][i-1] + st[0][i], dp[0][i-1]);
             dp[1][i] = max(dp[0][i-1] + st[1][i], dp[1][i-1]);
         }
-        
         cout << max(dp[0][a-1], dp[1][a-1]) << '\n';
     }
 }
