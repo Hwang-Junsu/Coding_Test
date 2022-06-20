@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 int n,m;
 bool visited[10001];
 vector<int> vt;
