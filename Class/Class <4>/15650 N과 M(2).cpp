@@ -27,7 +27,6 @@ void dfs(int len, int num, string str) {
 
 int main() {
     cin >> n >> m;
-    
-    
+
     dfs(0, 0, "");
 }
