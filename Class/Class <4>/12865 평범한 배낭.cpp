@@ -1,7 +1,3 @@
-// Knapsack DP문제
-// 핵심은 subproblem을 나눌때에 고려해보아야 하는 것이 무엇인지.
-// 물건을 넣었을 때, 넣지 않을 때,
-
 #include <bits/stdc++.h>
 
 using namespace std;
