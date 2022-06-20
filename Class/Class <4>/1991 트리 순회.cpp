@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 map<char, pair<char, char>> tree;
 map<char, bool> visited;
 
