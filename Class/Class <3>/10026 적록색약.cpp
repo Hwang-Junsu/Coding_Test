@@ -1,4 +1,3 @@
-// BFS, 구현 문제.
 
 #include <bits/stdc++.h>
 
