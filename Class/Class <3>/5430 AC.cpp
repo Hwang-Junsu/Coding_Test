@@ -50,7 +50,6 @@ int main() {
                 }
             }
         }
-        
         if(error) {
             cout << "error" << '\n';
         }
