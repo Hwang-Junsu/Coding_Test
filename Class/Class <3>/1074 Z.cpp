@@ -50,6 +50,5 @@ int main() {
         cout << start << " " << end << '\n';
         n--;
     }
-    
     cout << start;
 }
