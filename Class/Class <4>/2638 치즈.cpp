@@ -69,5 +69,4 @@ int main() {
     }
     disunite(0,0);
     print();
-    
 }
