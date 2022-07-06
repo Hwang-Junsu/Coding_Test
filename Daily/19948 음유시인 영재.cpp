@@ -31,7 +31,6 @@ int main(void){
             }
             continue;
         }
-        
         char now;
         if(s[i] >= 'a') {
             now = s[i];
