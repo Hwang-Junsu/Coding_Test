@@ -64,5 +64,4 @@ int main(void){
     else {
         cout << title << '\n';
     }
-    
 }
