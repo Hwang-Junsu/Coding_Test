@@ -12,7 +12,6 @@ def drawUnderbar(c) :
         print(underbar, end="")
 
 def recursion(count) :
-
     drawUnderbar(n-count)
     print("\"재귀함수가 뭔가요?\"")
 
