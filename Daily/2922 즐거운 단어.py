@@ -70,5 +70,3 @@ def check(string, index, c_count, v_count, contain) :
 
 
 print(check(word , 0 ,0 , 0, 0))
-
-
