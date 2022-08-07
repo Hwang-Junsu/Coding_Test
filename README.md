@@ -7,6 +7,6 @@ C/C++, C#, JAVA, Kotlin, Python
 3) Brute Force, Greedy
 
 
-1.Class
+1. Class
 2. Daily
-3.
+3. Practice
