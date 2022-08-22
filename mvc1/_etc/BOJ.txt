@@ -1,0 +1,267 @@
+Impletation, Math.
+
+1. 수 이어 쓰기1
+
+C/C++ http://boj.kr/be3a1838a11747ab8cb68b5855f6d0d7
+C# http://boj.kr/429e8841a0ea4aac94ab09e2699ca49d
+Python http://boj.kr/0fbde20d55a548fd9840ee13acdbe45b
+Java http://boj.kr/a6a106b666d8468eb45c50121cf07e7a
+Kotlin http://boj.kr/cf43eca81920481e8eee80ae3d92c661
+
+2. 영식이의 손가락
+
+C/C++ http://boj.kr/4c69dd855979428db11f9f96ed11723f
+C# http://boj.kr/2959942642e649ceba44941962830cac
+Python http://boj.kr/4a339e32d6bb49bf9db311dd93fcc254
+Java http://boj.kr/32c94d9d7b474d18ae880b6d5c286a3b
+Kotlin http://boj.kr/26f2de434967475daa62607d226211d5
+
+3. 조합 0의 개수
+
+C/C++ http://boj.kr/48a0f3fbf5f34b9f95d0bf3ede8adb38
+C# http://boj.kr/03da1f968e8346f7b2140000839fc245
+Python http://boj.kr/cfac740484414ef78828cc565eb66f6c
+Java http://boj.kr/44e5ba19ad57492a8d7970c13cc4bdd6
+Kotlin http://boj.kr/11e405a36c5e42da892d030d07bbe559
+
+4. 베르트랑 공준
+
+C/C++ http://boj.kr/efcc8c6a09984dd0bd146c631a7f7928
+C# http://boj.kr/64c23040dece483588c20eea63afd79a
+Python http://boj.kr/4c641aabb38e492b9c3e91db9e31a88a
+Java http://boj.kr/2c9d73404a2c45f58f86ffa41711bd1b
+Kotlin http://boj.kr/3820e52fe47d4ee9bf2ea1eee0a26647
+
+5. 골드바흐의 추측
+
+C/C++ http://boj.kr/5198c8be02df4570b93493f6db7426a5
+C# http://boj.kr/ba5a7d759c024414b493c549d80f5904
+Python http://boj.kr/81fee04217174e3fb690ab33af2a37eb
+Java http://boj.kr/be53fa3650744d73b698509a7ae28121
+Kotlin http://boj.kr/244c61973be14e6c90ccfa9e36761024
+
+DP.
+
+1. 피보나치수
+ 
+C/C++ http://boj.kr/38acaef41395445f88075a2e47fae145
+C#  http://boj.kr/c3d88576de5a4e1aa12a6f578d66bb85
+Python http://boj.kr/0d739286b82d4316bcbcb1900b842341
+Java http://boj.kr/e1bb61e001614488b91dfaac404097b3
+Kotlin http://boj.kr/d3f7decf81014732b2a4fe951da4d910
+
+
+2. 피보나치수2
+
+C/C++ http://boj.kr/8970366503d440ea82b39dcf4efd9c67
+C# http://boj.kr/50cec63776df47609be8a2be9202414d
+Python http://boj.kr/039ba33d85624c519719fb11cabb6406
+Java http://boj.kr/1a92f899943249f5aaa47e1e9010b2c8
+Kotlin http://boj.kr/a006d69268ff4b0ca1d9031641e09659
+
+
+3. 1로만들기
+
+C/C++ http://boj.kr/e031d72c597b4b47b4343e40a2b9886e
+C# http://boj.kr/6b0ef0b9a454406eafb496f306492305
+Python http://boj.kr/d9bbd198f96c451ea26aa4833507ea11
+Java http://boj.kr/e45a8ab78bb0491f859f72d4f959f6d6
+Kotlin http://boj.kr/0cc1a2f70cb44255a27ef566994ec938
+
+
+4. 제곱수의 합
+
+C/C++ http://boj.kr/78ef62d370d34172a451a56e8005711c
+C#  http://boj.kr/0b0efbe256f049d09ed4dfad81557e50
+Python http://boj.kr/34ebc7734b4544ff90601705493fb67c
+Java http://boj.kr/437f44e012bd4fccaf338469d22ba4a5
+Kotlin http://boj.kr/6118174733b2410ebe63b370167ebd06
+
+5. 이친수
+
+C/C++ http://boj.kr/12a19e0dc9a744b595e912ef67504a60
+C# http://boj.kr/e6cc7508acae4594891cf04b95d0b2f5
+Python http://boj.kr/43a502474ca140418c3bbdec54a63868
+Java http://boj.kr/9365a86ec6b5439fb777381c20cd44c6
+Kotlin http://boj.kr/cbe97cfa40bd4f6890684594b9ef3a9c
+
+1. 계단오르기
+C/C++ http://boj.kr/0ce1f811b9f04f52bbaef841d5a3c4c4
+C# http://boj.kr/1d16a0d76ffd4c799c473f1e540faca1
+Python http://boj.kr/c02ec863af7c4767b89b1919adf97220
+Java http://boj.kr/5a507d1884864bcbae0e6fe50b7884df
+Kotlin http://boj.kr/e9f0d39f974542299b73eae2ff5afce4
+
+2. 1,2,3 더하기
+C/C++ http://boj.kr/b2b5d51b590c450b9963001cb49b0d96
+C# http://boj.kr/5c9a9242de8b45e09a4f61fd9bff849c
+Python http://boj.kr/3f989d671191433c83618b84501a061c
+Java http://boj.kr/2dc063c00d4c43f8a8093ec5740492fa
+Kotlin http://boj.kr/e541cf715e304809b1b1a208b2605db4
+
+3. 파도반 수열
+C/C++ http://boj.kr/06b7514316e043f49fb0555daf7fbd6e
+C# http://boj.kr/692cb9c1e4d84b878c2f00902958ed3c
+Python http://boj.kr/b3ced302cd55428c989d12504ce3c463
+Java http://boj.kr/65c0f959215f4e6a9e216b38b6612236
+Kotlin http://boj.kr/1ac6b9c233804746b35432f14a334237
+
+4. 2xn 타일링
+C/C++ http://boj.kr/69fae87f31fd48a19204f341d6e09a66
+C# http://boj.kr/0b8aa63f57904c2291c8699623abf6fe
+Python http://boj.kr/6fe42ca09b8d4a86af902c8534c9ef4e
+Java http://boj.kr/63982614b20540768bd69ac512053d92
+Kotlin http://boj.kr/67b7c599a4af4274afd983bdd8143b5f
+
+5. 2xn 타일링2
+C/C++ http://boj.kr/d7c33d59e1cc43bd84c9093846b2ee7d
+C# http://boj.kr/9d82fbd9c95047a49887b1f7c3cd706f
+Python http://boj.kr/2ec2014e0c2d4f5dbcbec66538bf1b74
+Java http://boj.kr/db73c86a7c7f41a9a500769bd0829a63
+Kotlin http://boj.kr/72f421fc4b9a45aaa66502b15c0a5f80
+
+
+BFS/DFS.
+
+1. 반복수열
+C/C++ http://boj.kr/7fa23971eeb542388c70ed5f34b26287
+C# http://boj.kr/65b7668e9ada4f4cacec72fc6e0d54fe
+Python http://boj.kr/f694d31b515148a783ddfaf539b82add
+Java http://boj.kr/bdf49f41cbb54443b2814e0314cdc642
+Kotlin http://boj.kr/26c841447ab449e38c1cbeac8ea5ffed
+
+2. 늑대와 양
+C/C++ http://boj.kr/856392489a7d4b998ecdd35cf08a12ab
+C# http://boj.kr/aa39f75c81674c24a817d7df971def21
+Python http://boj.kr/dff194aeac9741a5b4829269472a830d
+Java http://boj.kr/df736b4d33cd47b39491fe1f8cda6a47
+Kotlin http://boj.kr/6eecd828a8e44091934e1dab6d58348f
+
+3. DFS와 BFS
+C/C++ http://boj.kr/8cdda1ad4d9945a0824d2d11efc7937e
+C# http://boj.kr/400aa8a3e86b4a7587dbbaba10df709a
+Python http://boj.kr/69f906c548de4585adbc09276cf7c98f
+Java http://boj.kr/92e17276517648e88e05d37823d67bcf
+Kotlin http://boj.kr/427a1c3a4a574232b56f823139095de8
+
+4. 순열 사이클
+C/C++ http://boj.kr/64287e76eb0b4f44bc66a7091246ad95
+C# http://boj.kr/31f968c05153443193cf8ac6785abd49
+Python http://boj.kr/9e12d9314f0645de963e4e934180789d
+Java http://boj.kr/0461f3e76af248428aac16ea96ae41c5
+Kotlin http://boj.kr/090d9f972c084958a6cbfbf0816d3cc3
+
+5. 섬의 개수
+C/C++ http://boj.kr/ff4dbdca14084ebc83d44a2945a1d021
+C# http://boj.kr/79655645bb9644f8b50340e59ad4e6c1
+Python http://boj.kr/5c11a273996844f38ffa2b28b13bcc9e
+Java http://boj.kr/efdcba255c1947079e40b95652a4fb0d
+Kotlin http://boj.kr/a7b49c733bdd4ecc9c07a81f3f2872a4
+
+1. 연결 요소의 개수
+C/C++ http://boj.kr/87bdd28b76394cc48af2583c7fcdc600
+C# http://boj.kr/7ddaf4f7df9549bd974b32ce3c9b12b2
+Python http://boj.kr/5867abecb99b481c9ebbbb576a7cb930
+Java http://boj.kr/41d095a0a81145aeb52ebb060f17915a
+Kotlin http://boj.kr/815bcb2299b840c1b65a5637c05249ce
+
+2. 트리의 부모 찾기
+C/C++ http://boj.kr/d27043784d6d400f9878cdb979c3f85f
+C# http://boj.kr/4631beecde2c49eba21ce52e0ef8ced5
+Python http://boj.kr/96a0583928354062b3302f631d6b9d27
+Java http://boj.kr/a837f4c1d52e4c968f91e01b26d11282
+Kotlin http://boj.kr/cbcaacbe432f4e02a27c86a00e1e06a1
+
+3. 아기 상어2
+C/C++ http://boj.kr/bbff256d25e64af4ae8a4690aac2dbe4
+C# http://boj.kr/64e31ea3eff34e869cf72b428c3b8d0b
+Python http://boj.kr/aee3ee25699943e5b4659e0aaf46d43f
+Java http://boj.kr/179eb56170f4418f8bb5a70a72ed77e8
+Kotlin http://boj.kr/25de0803d9f242e7847539342be9e380
+
+4. 케빈 베이컨의 6단계 법칙
+C/C++ http://boj.kr/ee1b94d4ab07452e9a5c78a6c95e4c2a
+C# http://boj.kr/586af354f8a54ab19bb6a606a55c3fd1
+Python http://boj.kr/83f7941cd4bf4050954470155cf7eb30
+Java http://boj.kr/5a12276e9d5445358879ec86cbe70c92
+Kotlin http://boj.kr/6742cacaa7ae4c6bbdbd17a219ea0971
+
+5. 숨바꼭질
+C/C++ http://boj.kr/5296909dbb5046b8b35610e2529ec5a4
+C# http://boj.kr/73a4cb1366714654995baaed9dad65ba
+Python http://boj.kr/38e96ad34c1a403aa86f238f5ec4038f
+Java http://boj.kr/a6c2f10d1e71400c9e8856a15e0abb57
+Kotlin http://boj.kr/43e3becc7145467ead16cf0215c02699
+
+Greedy & Brute Force
+1. 대회 or 인턴
+C/C++ http://boj.kr/85e179aa6f32406ca7dc4d07b29ffe44
+C# http://boj.kr/c983c485c8564baca7a0bb83d7f733af
+Python http://boj.kr/c7b85ff64c474445b887c41e925101d7
+Java http://boj.kr/ee0852f72c6243f48c22a0e4615a1daa
+Kotlin http://boj.kr/86655ed739b54ee18dea66c3c29ee1e9
+
+2. 양념 반 후라이드 반
+C/C++ http://boj.kr/bf8c686261884a9aa1f56cffccea5266
+C# http://boj.kr/defabf193f3b44beb140d485db09ffd4
+Python http://boj.kr/9cfadd3e76374624b0e8977431beefd9
+Java http://boj.kr/cd28bdeeb51b4e9cb68ce7409796334f
+Kotlin http://boj.kr/b7da3b8ad5964d37a8425605b67145f4
+
+3. 일곱 난쟁이
+C/C++ http://boj.kr/4a62cbd970814745a95b05b429dd4050
+C# http://boj.kr/56511f3323604b9eab5d491be7ae751e
+Python http://boj.kr/05aa310d601f4f1394b9bb42967b4307
+Java http://boj.kr/ccea2da1444d4d12b8aed662c7e987ea
+Kotlin http://boj.kr/70da19913d9642d583c19097932667dd
+
+4. 차량 번호판 1
+C/C++ http://boj.kr/9fec7bbc1c3c41e59b8cf2f7c1204539
+C# http://boj.kr/d84c61ff05ae4d889281cc541d2e557d
+Python http://boj.kr/ec094ee05e9f4523ba35813159f9af81
+Java http://boj.kr/914ebf1697b84985bae30ec7699dfe9e
+Kotlin http://boj.kr/b2f0a4f1708d46508962c4f50c866b31
+
+5. 날짜 계산
+C/C++ http://boj.kr/e6ad887dc36f48728b4708f371e7a7c4
+C# http://boj.kr/e3598acce0d34d118ce572271da2cded
+Python http://boj.kr/5a43d7184fb5432b948b8e2297bf0b07
+Java http://boj.kr/d42c8c8b99034ef59ee68a4654b31997
+Kotlin http://boj.kr/636afdec6611467b98e9677ca4a5b468
+
+Course 9-02
+1. 한윤정 이탈리아 아이스크림
+C/C++ http://boj.kr/4afe58ef55cf49cca1f88c2c6df16796
+C# http://boj.kr/cc2c656ed5844b27a6e49102bf0040ee
+Python http://boj.kr/f4e46e5f31624481b8c008d77f525bc2
+Java http://boj.kr/9dfce47efeb646009f544e124a5877fc
+Kotlin http://boj.kr/d3269a33aa5c44549b4b9911a3c02b0a
+
+2. 30
+C/C++ http://boj.kr/a170614e2b764194a19330efedb263c1
+C# http://boj.kr/de426eb32dd943c5ad865b3576044ee1
+Python http://boj.kr/8964addb8cf847b5a736af2462fbf956
+Java http://boj.kr/5b97951101bf4a808a9193aaa3e49407
+Kotlin http://boj.kr/73f601cda77a49f5a569332f35b1db66
+
+3. 집합
+C/C++ http://boj.kr/8c73d28c6e7f45d3949f4bd04b6505b6
+C# http://boj.kr/9bb7e306551a49f8b83d6c770d090e11
+Python http://boj.kr/7daa367cb2bc4182a98650dc531071c4
+Java http://boj.kr/27d44733a90e4992b3b691e9585eefe7
+Kotlin http://boj.kr/e16566c9854146d796bdcf644f59f325
+
+4. 매직 스퀘어로 변경하기
+C/C++ http://boj.kr/a4d53dd0a99e4477985fdbe6546d15b9
+C# http://boj.kr/bd95c0cb3c9f403ca1bb3a089cad123b
+Python http://boj.kr/1beb3b322c514e3482bdb75ff54b1225
+Java http://boj.kr/d07a08c7d6834fdcb58bdfff1aebd138
+Kotlin http://boj.kr/1ec7082f8e4b4f159d452371b0b91753
+
+5. 병든 나이트
+C/C++ http://boj.kr/e4924632aa9c4cf69b492af0a1e14dde
+C# http://boj.kr/7123b5718aa44a9dbfcf464764c68b66
+Python http://boj.kr/92beb2e7e17747beaa8265a92128733a
+Java http://boj.kr/0ee984f237a742058105dd043ea05cd8
+Kotlin http://boj.kr/12a2872e88b740c898a5df437b05443e
+
