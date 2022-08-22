@@ -1,13 +1,6 @@
 var fs = require("fs");
 
-var input = fs.readFileSync("input.txt").toString().trim().split("\n"); // 풀기용
+var input = fs.readFileSync("input.txt").toString(); // 풀기용
 
-let length = input.length;
-
-let trees = {};
-
-input.map((tree) => {
-  if (!tree in trees) console.log(tree);
-});
-
-console.log(trees);
+let arr = input.split("\r\n");
+console.log(arr);
