@@ -31,7 +31,6 @@ var mergeTwoLists = function (list1, list2) {
   let cur = newList; //현재 가리키는 값. 현재는 head에 위치함.
   while (true) {
     if (list1 === null && list2 === null) {
-      cur = cur.next;
       break;
     }
     if (list1 === null || list2 === null) {
@@ -52,12 +51,6 @@ var mergeTwoLists = function (list1, list2) {
       }
     }
     cur = cur.next;
-  }
-
-  if (list1 !== null) {
-    cur.next = list1;
-  } else if (list2 !== null) {
-    cur.next = list2;
   }
 
   return newList.next;
