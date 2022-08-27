@@ -19,21 +19,19 @@ Output: [1,3,2]
  * @return {number[]}
  */
 
-let inorder = function (root, visited, arr) {
+let inorder = function (root, arr) {
   if (root === null) return;
-  visited[root.val] = true;
-
-  if (root.left === null) {
-    arr.push(root.val);
+  if (root.left !== null) {
+    inorder(root.left, arr);
   }
-  inorder(root.left, visited, arr);
-
-  inorder(root.right, visited, arr);
+  arr.push(root.val);
+  if (root.right !== null) {
+    inorder(root.right, arr);
+  }
 };
 
 var inorderTraversal = function (root) {
   let answer = [];
-  let visited = new Array(101).fill(false);
-  inorder(root, visited, answer);
+  inorder(root, answer);
   return answer;
 };
