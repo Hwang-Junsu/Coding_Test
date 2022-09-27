@@ -19,10 +19,10 @@ Explanation: There are two ways to climb to the top.
  * @return {number}
  */
 var climbStairs = function (n) {
-  let dp = [0, 1, 2];
+    let dp = [0, 1, 2];
 
-  for (let i = 3; i <= n; i++) {
-    dp.push(dp[i - 2] + dp[i - 1]);
-  }
-  return dp[n];
+    for (let i = 3; i <= n; i++) {
+        dp.push(dp[i - 2] + dp[i - 1]);
+    }
+    return dp[n];
 };

@@ -18,21 +18,21 @@ Thus, the result should be [1,2,4].
  * @return {number[]}
  */
 var plusOne = function (digits) {
-  let index = digits.length - 1;
-  while (true) {
-    let cur = digits[index] + 1;
+    let index = digits.length - 1;
+    while (true) {
+        let cur = digits[index] + 1;
 
-    if (cur < 10) {
-      digits[index] = cur;
-      break;
-    } else {
-      digits[index] = 0;
-      index--;
-      if (index < 0) {
-        return [1, ...digits];
-      }
+        if (cur < 10) {
+            digits[index] = cur;
+            break;
+        } else {
+            digits[index] = 0;
+            index--;
+            if (index < 0) {
+                return [1, ...digits];
+            }
+        }
     }
-  }
 
-  return digits;
+    return digits;
 };

@@ -16,22 +16,22 @@ Explanation: The last word is "World" with length 5.
  * @return {number}
  */
 var lengthOfLastWord = function (s) {
-  let answer = 0;
-  let isBlank = false;
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] === " ") {
-      isBlank = true;
-      continue;
+    let answer = 0;
+    let isBlank = false;
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === " ") {
+            isBlank = true;
+            continue;
+        }
+        if (s[i] !== " " && isBlank) {
+            isBlank = false;
+            answer = 1;
+            continue;
+        }
+        if (s[i] !== " " && !isBlank) {
+            answer++;
+            continue;
+        }
     }
-    if (s[i] !== " " && isBlank) {
-      isBlank = false;
-      answer = 1;
-      continue;
-    }
-    if (s[i] !== " " && !isBlank) {
-      answer++;
-      continue;
-    }
-  }
-  return answer;
+    return answer;
 };

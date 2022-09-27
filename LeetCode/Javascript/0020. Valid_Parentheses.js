@@ -17,20 +17,20 @@ Output: true
  * @return {boolean}
  */
 var isValid = function (s) {
-  let stack = [];
-  [...s].forEach((ch) => {
-    if (stack.length === 0) {
-      stack.push(ch);
-    } else {
-      if (stack.at(-1) === "(" && ch === ")") {
-        stack.pop();
-      } else if (stack.at(-1) === "{" && ch === "}") {
-        stack.pop();
-      } else if (stack.at(-1) === "[" && ch === "]") {
-        stack.pop();
-      } else stack.push(ch);
-    }
-  });
-  if (stack.length === 0) return true;
-  return false;
+    let stack = [];
+    [...s].forEach((ch) => {
+        if (stack.length === 0) {
+            stack.push(ch);
+        } else {
+            if (stack.at(-1) === "(" && ch === ")") {
+                stack.pop();
+            } else if (stack.at(-1) === "{" && ch === "}") {
+                stack.pop();
+            } else if (stack.at(-1) === "[" && ch === "]") {
+                stack.pop();
+            } else stack.push(ch);
+        }
+    });
+    if (stack.length === 0) return true;
+    return false;
 };

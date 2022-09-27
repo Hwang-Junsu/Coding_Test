@@ -23,50 +23,50 @@ Given a roman numeral, convert it to an integer.
  * @return {number}
  */
 var romanToInt = function (s) {
-  let answer = 0;
-  const roman = {
-    I: 1,
-    V: 5,
-    X: 10,
-    L: 50,
-    C: 100,
-    D: 500,
-    M: 1000,
-  };
+    let answer = 0;
+    const roman = {
+        I: 1,
+        V: 5,
+        X: 10,
+        L: 50,
+        C: 100,
+        D: 500,
+        M: 1000,
+    };
 
-  let arr = [...s];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === "I") {
-      if (arr[i + 1] === "V") {
-        answer += 4;
-        i += 1;
-      } else if (arr[i + 1] === "X") {
-        answer += 9;
-        i += 1;
-      } else {
-        answer += roman[arr[i]];
-      }
-    } else if (arr[i] === "X") {
-      if (arr[i + 1] === "L") {
-        answer += 40;
-        i += 1;
-      } else if (arr[i + 1] === "C") {
-        answer += 90;
-        i += 1;
-      } else {
-        answer += roman[arr[i]];
-      }
-    } else if (arr[i] === "C") {
-      if (arr[i + 1] === "D") {
-        answer += 400;
-        i += 1;
-      } else if (arr[i + 1] === "M") {
-        answer += 900;
-        i += 1;
-      } else {
-        answer += roman[arr[i]];
-      }
-    } else answer += roman[arr[i]];
-  }
-  return answer;
+    let arr = [...s];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === "I") {
+            if (arr[i + 1] === "V") {
+                answer += 4;
+                i += 1;
+            } else if (arr[i + 1] === "X") {
+                answer += 9;
+                i += 1;
+            } else {
+                answer += roman[arr[i]];
+            }
+        } else if (arr[i] === "X") {
+            if (arr[i + 1] === "L") {
+                answer += 40;
+                i += 1;
+            } else if (arr[i + 1] === "C") {
+                answer += 90;
+                i += 1;
+            } else {
+                answer += roman[arr[i]];
+            }
+        } else if (arr[i] === "C") {
+            if (arr[i + 1] === "D") {
+                answer += 400;
+                i += 1;
+            } else if (arr[i + 1] === "M") {
+                answer += 900;
+                i += 1;
+            } else {
+                answer += roman[arr[i]];
+            }
+        } else answer += roman[arr[i]];
+    }
+    return answer;
 };

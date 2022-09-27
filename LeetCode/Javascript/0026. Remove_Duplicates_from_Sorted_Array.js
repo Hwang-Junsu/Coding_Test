@@ -28,12 +28,12 @@ If all assertions pass, then your solution will be accepted.
  * @return {number}
  */
 var removeDuplicates = function (nums) {
-  let idx = 0;
-  while (idx < nums.length) {
-    if (nums[idx] === nums[idx + 1]) {
-      nums.splice(idx, 1);
-    } else {
-      idx++;
+    let idx = 0;
+    while (idx < nums.length) {
+        if (nums[idx] === nums[idx + 1]) {
+            nums.splice(idx, 1);
+        } else {
+            idx++;
+        }
     }
-  }
 };

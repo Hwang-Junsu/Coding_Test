@@ -17,13 +17,13 @@ Explanation: merged array = [1,2,3] and median is 2.
  * @return {number}
  */
 var findMedianSortedArrays = function (nums1, nums2) {
-  let arr = nums1.concat(nums2);
-  arr.sort((a, b) => a - b);
+    let arr = nums1.concat(nums2);
+    arr.sort((a, b) => a - b);
 
-  if (arr.length % 2 === 1) {
-    return arr[parseInt(arr.length / 2)];
-  }
-  return (
-    (arr[parseInt(arr.length / 2) - 1] + arr[parseInt(arr.length / 2)]) / 2
-  );
+    if (arr.length % 2 === 1) {
+        return arr[parseInt(arr.length / 2)];
+    }
+    return (
+        (arr[parseInt(arr.length / 2) - 1] + arr[parseInt(arr.length / 2)]) / 2
+    );
 };

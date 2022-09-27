@@ -23,13 +23,13 @@ Output: 2
  * @return {number}
  */
 var strStr = function (haystack, needle) {
-  const len = needle.length;
+    const len = needle.length;
 
-  for (let i = 0; i < haystack.length; i++) {
-    let str = haystack.substr(i, len);
-    if (needle === str) {
-      return i;
+    for (let i = 0; i < haystack.length; i++) {
+        let str = haystack.substr(i, len);
+        if (needle === str) {
+            return i;
+        }
     }
-  }
-  return -1;
+    return -1;
 };

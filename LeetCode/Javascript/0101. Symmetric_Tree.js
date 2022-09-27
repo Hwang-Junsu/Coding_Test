@@ -23,33 +23,33 @@ Output: true
  */
 
 let inorder = (tree, arr, state) => {
-  if (tree.left !== null) {
-    inorder(tree.left, arr, "left");
-  }
-  arr.push([tree.val, state]);
-  if (tree.right !== null) {
-    inorder(tree.right, arr, "right");
-  }
+    if (tree.left !== null) {
+        inorder(tree.left, arr, "left");
+    }
+    arr.push([tree.val, state]);
+    if (tree.right !== null) {
+        inorder(tree.right, arr, "right");
+    }
 };
 
 var isSymmetric = function (root) {
-  let state = "none";
-  let arr = [];
-  inorder(root, arr, state);
+    let state = "none";
+    let arr = [];
+    inorder(root, arr, state);
 
-  if (arr.length % 2 === 0) return false;
+    if (arr.length % 2 === 0) return false;
 
-  let center = parseInt(arr.length / 2);
+    let center = parseInt(arr.length / 2);
 
-  for (let i = 0; i < center; i++) {
-    for (let j = 0; j < 2; j++) {
-      if (
-        arr[i][0] !== arr[arr.length - 1 - i][0] ||
-        arr[i][1] === arr[arr.length - 1 - i][1]
-      )
-        return false;
+    for (let i = 0; i < center; i++) {
+        for (let j = 0; j < 2; j++) {
+            if (
+                arr[i][0] !== arr[arr.length - 1 - i][0] ||
+                arr[i][1] === arr[arr.length - 1 - i][1]
+            )
+                return false;
+        }
     }
-  }
 
-  return true;
+    return true;
 };

@@ -20,18 +20,18 @@ Output: [1,3,2]
  */
 
 let inorder = function (root, arr) {
-  if (root === null) return;
-  if (root.left !== null) {
-    inorder(root.left, arr);
-  }
-  arr.push(root.val);
-  if (root.right !== null) {
-    inorder(root.right, arr);
-  }
+    if (root === null) return;
+    if (root.left !== null) {
+        inorder(root.left, arr);
+    }
+    arr.push(root.val);
+    if (root.right !== null) {
+        inorder(root.right, arr);
+    }
 };
 
 var inorderTraversal = function (root) {
-  let answer = [];
-  inorder(root, answer);
-  return answer;
+    let answer = [];
+    inorder(root, answer);
+    return answer;
 };

@@ -21,16 +21,16 @@ Output: [1,2]
  */
 
 var deleteDuplicates = function (head) {
-  let newNode = new ListNode(-101);
-  let cur = newNode;
+    let newNode = new ListNode(-101);
+    let cur = newNode;
 
-  while (true) {
-    if (head === null) break;
-    if (cur.val !== head.val) {
-      cur.next = new ListNode(head.val);
-      cur = cur.next;
+    while (true) {
+        if (head === null) break;
+        if (cur.val !== head.val) {
+            cur.next = new ListNode(head.val);
+            cur = cur.next;
+        }
+        head = head.next;
     }
-    head = head.next;
-  }
-  return newNode.next;
+    return newNode.next;
 };

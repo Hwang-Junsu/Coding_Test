@@ -27,31 +27,31 @@ Output: [1,1,2,3,4,4]
  */
 
 var mergeTwoLists = function (list1, list2) {
-  let newList = new ListNode(); // 리스트를 연결할 새로운 노드를 만든다.
-  let cur = newList; //현재 가리키는 값. 현재는 head에 위치함.
-  while (true) {
-    if (list1 === null && list2 === null) {
-      break;
+    let newList = new ListNode(); // 리스트를 연결할 새로운 노드를 만든다.
+    let cur = newList; //현재 가리키는 값. 현재는 head에 위치함.
+    while (true) {
+        if (list1 === null && list2 === null) {
+            break;
+        }
+        if (list1 === null || list2 === null) {
+            if (list1 === null) {
+                cur.next = list2;
+                list2 = list2.next;
+            } else if (list2 === null) {
+                cur.next = list1;
+                list1 = list1.next;
+            }
+        } else {
+            if (list1.val <= list2.val) {
+                cur.next = list1;
+                list1 = list1.next;
+            } else {
+                cur.next = list2;
+                list2 = list2.next;
+            }
+        }
+        cur = cur.next;
     }
-    if (list1 === null || list2 === null) {
-      if (list1 === null) {
-        cur.next = list2;
-        list2 = list2.next;
-      } else if (list2 === null) {
-        cur.next = list1;
-        list1 = list1.next;
-      }
-    } else {
-      if (list1.val <= list2.val) {
-        cur.next = list1;
-        list1 = list1.next;
-      } else {
-        cur.next = list2;
-        list2 = list2.next;
-      }
-    }
-    cur = cur.next;
-  }
 
-  return newList.next;
+    return newList.next;
 };

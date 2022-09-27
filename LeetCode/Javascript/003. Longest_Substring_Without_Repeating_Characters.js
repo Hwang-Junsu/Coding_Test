@@ -15,24 +15,24 @@ Explanation: The answer is "abc", with the length of 3.
  * @return {number}
  */
 var lengthOfLongestSubstring = function (s) {
-  let answer = 0;
-  let max = 0;
-  let container = [];
+    let answer = 0;
+    let max = 0;
+    let container = [];
 
-  for (let i = 0; i < s.length; i++) {
-    for (let j = i; j < s.length; j++) {
-      if (container.includes(s[j])) {
-        container = [];
-        max = Math.max(answer, max);
-        answer = 0;
-        break;
-      } else {
-        container.push(s[j]);
-        answer++;
-      }
+    for (let i = 0; i < s.length; i++) {
+        for (let j = i; j < s.length; j++) {
+            if (container.includes(s[j])) {
+                container = [];
+                max = Math.max(answer, max);
+                answer = 0;
+                break;
+            } else {
+                container.push(s[j]);
+                answer++;
+            }
+        }
     }
-  }
-  max = Math.max(answer, max);
+    max = Math.max(answer, max);
 
-  return max;
+    return max;
 };

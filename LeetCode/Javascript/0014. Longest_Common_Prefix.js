@@ -16,18 +16,18 @@ Output: "fl"
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
-  let answer = "";
+    let answer = "";
 
-  for (let i = 0; i < strs[0].length; i++) {
-    let ch = strs[0][i];
+    for (let i = 0; i < strs[0].length; i++) {
+        let ch = strs[0][i];
 
-    for (let j = 1; j < strs.length; j++) {
-      if (ch !== strs[j][i]) {
-        return answer;
-      }
+        for (let j = 1; j < strs.length; j++) {
+            if (ch !== strs[j][i]) {
+                return answer;
+            }
+        }
+
+        answer += strs[0][i];
     }
-
-    answer += strs[0][i];
-  }
-  return answer;
+    return answer;
 };

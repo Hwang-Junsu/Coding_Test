@@ -10,11 +10,11 @@ Note: You are not allowed to use any built-in exponent function or operator, suc
  * @return {number}
  */
 var mySqrt = function (x) {
-  if (x === 0) return 0;
-  if (x === 1) return 1;
-  for (let i = 1; i <= x; i++) {
-    if (i * i > x) {
-      return i - 1;
+    if (x === 0) return 0;
+    if (x === 1) return 1;
+    for (let i = 1; i <= x; i++) {
+        if (i * i > x) {
+            return i - 1;
+        }
     }
-  }
 };

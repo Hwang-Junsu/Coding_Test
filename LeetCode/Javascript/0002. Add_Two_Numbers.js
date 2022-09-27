@@ -23,40 +23,40 @@ Explanation: 342 + 465 = 807.
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-  let newNode = new ListNode();
-  let cur = newNode;
-  let ceiling = 0;
+    let newNode = new ListNode();
+    let cur = newNode;
+    let ceiling = 0;
 
-  while (true) {
-    if (l1 === null && l2 === null) {
-      if (ceiling === 1) {
-        cur.next = new ListNode(1);
-      }
-      break;
+    while (true) {
+        if (l1 === null && l2 === null) {
+            if (ceiling === 1) {
+                cur.next = new ListNode(1);
+            }
+            break;
+        }
+
+        let value;
+        if (l1 === null) value = l2.val + ceiling;
+        else if (l2 === null) value = l1.val + ceiling;
+        else value = l1.val + l2.val + ceiling;
+
+        if (value > 9) {
+            value = value - 10;
+            ceiling = 1;
+        } else {
+            ceiling = 0;
+        }
+
+        cur.next = new ListNode(value);
+        cur = cur.next;
+
+        if (l1 === null) l2 = l2.next;
+        else if (l2 === null) l1 = l1.next;
+        else {
+            l1 = l1.next;
+            l2 = l2.next;
+        }
     }
 
-    let value;
-    if (l1 === null) value = l2.val + ceiling;
-    else if (l2 === null) value = l1.val + ceiling;
-    else value = l1.val + l2.val + ceiling;
-
-    if (value > 9) {
-      value = value - 10;
-      ceiling = 1;
-    } else {
-      ceiling = 0;
-    }
-
-    cur.next = new ListNode(value);
-    cur = cur.next;
-
-    if (l1 === null) l2 = l2.next;
-    else if (l2 === null) l1 = l1.next;
-    else {
-      l1 = l1.next;
-      l2 = l2.next;
-    }
-  }
-
-  return newNode.next;
+    return newNode.next;
 };

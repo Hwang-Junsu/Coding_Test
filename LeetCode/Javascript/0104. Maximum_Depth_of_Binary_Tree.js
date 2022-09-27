@@ -25,24 +25,24 @@ Output: 3
  */
 
 let inorder = (tree, arr, state) => {
-  if (tree.left !== null) {
-    inorder(tree.left, arr, state + 1);
-  }
-  arr.push([tree.val, state]);
-  if (tree.right !== null) {
-    inorder(tree.right, arr, state + 1);
-  }
+    if (tree.left !== null) {
+        inorder(tree.left, arr, state + 1);
+    }
+    arr.push([tree.val, state]);
+    if (tree.right !== null) {
+        inorder(tree.right, arr, state + 1);
+    }
 };
 
 var maxDepth = function (root) {
-  if (root === null) return 0;
-  let arr = [];
-  inorder(root, arr, 1);
-  let answer = 0;
+    if (root === null) return 0;
+    let arr = [];
+    inorder(root, arr, 1);
+    let answer = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    answer = Math.max(arr[i][1], answer);
-  }
+    for (let i = 0; i < arr.length; i++) {
+        answer = Math.max(arr[i][1], answer);
+    }
 
-  return answer;
+    return answer;
 };

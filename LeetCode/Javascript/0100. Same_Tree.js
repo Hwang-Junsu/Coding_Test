@@ -26,34 +26,34 @@ Output: true
  */
 
 let inorder = (tree, arr, state) => {
-  if (tree.left !== null) {
-    inorder(tree.left, arr, "left");
-  }
-  arr.push([tree.val, state]);
+    if (tree.left !== null) {
+        inorder(tree.left, arr, "left");
+    }
+    arr.push([tree.val, state]);
 
-  if (tree.right !== null) {
-    inorder(tree.right, arr, "right");
-  }
+    if (tree.right !== null) {
+        inorder(tree.right, arr, "right");
+    }
 };
 
 var isSameTree = function (p, q) {
-  if (p === null && q === null) return true;
-  if (p !== null && q === null) return false;
-  if (p === null && q !== null) return false;
+    if (p === null && q === null) return true;
+    if (p !== null && q === null) return false;
+    if (p === null && q !== null) return false;
 
-  let arr1 = [];
-  let arr2 = [];
-  let state = "none";
+    let arr1 = [];
+    let arr2 = [];
+    let state = "none";
 
-  inorder(p, arr1, state);
-  inorder(q, arr2, state);
+    inorder(p, arr1, state);
+    inorder(q, arr2, state);
 
-  if (arr1.length !== arr2.length) return false;
+    if (arr1.length !== arr2.length) return false;
 
-  for (let i = 0; i < arr1.length; i++) {
-    for (let j = 0; j < 2; j++) {
-      if (arr1[i][j] !== arr2[i][j]) return false;
+    for (let i = 0; i < arr1.length; i++) {
+        for (let j = 0; j < 2; j++) {
+            if (arr1[i][j] !== arr2[i][j]) return false;
+        }
     }
-  }
-  return true;
+    return true;
 };
