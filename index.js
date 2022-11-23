@@ -1,25 +1,20 @@
+const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
 const arr = require("fs")
-    .readFileSync(__dirname + "/input.txt")
+    .readFileSync(filePath)
     .toString()
     .trim()
-    .split("\n")
-    .map((el) => el.trim());
+    .split(" ")
+    .map((el) => +el);
 
-const answer = [];
-for (let i = 0; i < arr.length - 1; i++) {
-    const number = arr[i];
-    if (number.length === 1) {
-        answer.push("yes");
-        continue;
-    }
-    let isPalin = true;
-    for (let j = 0; j <= parseInt(number.length / 2); j++) {
-        if (number[j] !== number[number.length - 1 - j]) {
-            answer.push("no");
-            isPalin = false;
-            break;
-        }
-    }
-    if (isPalin) answer.push("yes");
-}
-console.log(answer.join("\n"));
+let answer = 0;
+if (arr[0] === arr[1] && arr[1] === arr[2]) answer = 10000 + arr[0] * 1000;
+else if (arr[0] === arr[1] && arr[1] !== arr[2])
+    answer = 1000 + Math.max(arr[0], arr[1]) * 100;
+else if (arr[0] !== arr[1] && arr[1] === arr[2])
+    answer = 1000 + Math.max(arr[1], arr[2]) * 100;
+else if (arr[0] === arr[2] && arr[2] !== arr[1])
+    answer = 1000 + Math.max(arr[0], arr[2]) * 100;
+else if (arr[0] !== arr[1] && arr[1] !== arr[2])
+    answer = Math.max(arr[0], arr[1], arr[2]) * 100;
+
+console.log(answer);
