@@ -37,7 +37,7 @@ for (let i = 5; i < k + 5; i++) {
       isSame[i + 1][0] = true;
     }
   }
-  console.log(isSame);
+  console.log("hi");
 }
 
 // a톱니바퀴를 회전시켰을 때 옆에있는 톱니바퀴와 맞닿은 극이 다르다면 (a[2] !== b[6]);
