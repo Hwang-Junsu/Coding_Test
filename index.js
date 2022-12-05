@@ -1,32 +1,18 @@
-const [input, ...arr] = require("fs")
+const [a, b, c, n] = require("fs")
   .readFileSync(__dirname + "/input.txt")
   .toString()
   .trim()
-  .split("\n");
+  .split(" ")
+  .map((el) => +el);
 
-let answer = 0;
-const n = Number(input);
-const index = [];
-for (let i = 0; i < n; i++) {
-  index.push(arr[i].split(" ").map((el) => +el));
-}
+const length = parseInt(n / c);
 
-const x = Math.max(...index.map((el) => el[0]));
-const y = Math.max(...index.map((el) => el[1]));
-
-const paper = Array.from({ length: y + 10 }, () =>
-  Array.from({ length: x + 10 }, () => 0)
-);
-
-for (let i = 0; i < n; i++) {
-  const [sx, sy] = index[i];
-  for (let j = sy; j < sy + 10; j++) {
-    for (let k = sx; k < sx + 10; k++) {
-      if (paper[j][k] === 1) continue;
-      paper[j][k] = 1;
-      answer++;
+for (let i = 0; i < length; i++) {
+  for (let j = 0; j < length; j++) {
+    for (let k = 0; j < length; k++) {
+      console.log(i * a + j * b + k * c);
     }
   }
 }
 
-console.log(answer);
+console.log(a, b, c, n);
