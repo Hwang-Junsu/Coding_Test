@@ -1,8 +1,8 @@
 const input = require("fs")
   .readFileSync(__dirname + "/input.txt")
   .toString()
-  .split("\n")
-  .map((el) => el.trim());
+  .trim()
+  .split("\n");
 
 const [n, m, r] = input
   .shift()
@@ -38,4 +38,6 @@ const rotateArray = (arr, n, m) => {
 for (let i = 0; i < r; i++) {
   rotateArray(arr, n, m, r);
 }
-console.log(arr.map((el) => el.join(" ")).join("\n"));
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i].join(" "));
+}
