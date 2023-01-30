@@ -64,3 +64,5 @@ for (let i = 0; i < m; i++) {
 
 console.log(answer.length);
 console.log(answer.sort((a, b) => a - b).join(" "));
+
+// 그래프 탐색 문제
