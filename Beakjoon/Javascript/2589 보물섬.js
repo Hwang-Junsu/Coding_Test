@@ -108,3 +108,6 @@ for (let i = 0; i < m; i++) {
 }
 
 console.log(maximum);
+
+// bfs 브루트포스 문제
+// L인 지점을 기준으로 BFS 탐색을 하여, 가장 멀리 간 지점의 값을 maximum 변수에 저장한다.
