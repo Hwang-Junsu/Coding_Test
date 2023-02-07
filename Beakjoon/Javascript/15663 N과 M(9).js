@@ -1,5 +1,5 @@
 const [input1, input2] = require("fs")
-  .readFileSync(__dirname + "/input.txt")
+  .readFileSync("/dev/stdin")
   .toString()
   .trim()
   .split("\n")
@@ -39,10 +39,10 @@ for (let i = 0; i < n; i++) {
   dfs(i, [values[i]], count);
 }
 
-const removeDup = (arr) => {
+const removeDuplication = (arr) => {
   return [...new Set(arr.join("|").split("|"))]
     .map((v) => v.split(","))
     .map((v) => v.map((a) => +a));
 };
-const arr = removeDup(answer);
+const arr = removeDuplication(answer);
 console.log(arr.map((el) => [...el].join(" ")).join("\n"));
