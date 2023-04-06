@@ -133,7 +133,6 @@ class DoublyLinkedList {
         this.length--;
         return removedNode;
     }
-
 }
 
 /*push
