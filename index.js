@@ -5,54 +5,20 @@ let input = require("fs")
   .toString()
   .split("\n");
 
-const n = +input[0];
-const fruits = input[1].split(" ").map((el) => +el);
+const [n, m, r] = input[0].split(" ").map(Number);
 
-// 가능한 과일 [1,2,3,4,5,6,7,8,9]
+const arr = input.slice(1).map((el) => el.split(" ").map(Number));
 
-const solution = () => {
-  if (n < 2) return n;
-  let max = 0;
-  let start = 0;
-  let end = start + 1;
-  const count = {};
-  let fruitType = 0;
+const rotate90deg = (matrix) => {
+  const row = matrix[0].length;
+  const col = matrix.length;
+  const rotated = Array.from({ length: col }, () =>
+    Array.from({ length: row }, () => 0)
+  );
 
-  const abstractFruit = (fruit) => {
-    count[fruit] -= 1;
-    if (count[fruit] === 0) fruitType -= 1;
-  };
-  const addFruit = (fruit) => {
-    if (!count[fruit]) {
-      count[fruit] = 0;
-      fruitType += 1;
-    }
-    count[fruit] += 1;
-  };
-
-  addFruit(fruits[start]);
-  addFruit(fruits[end]);
-
-  while (true) {
-    if (end === n) break;
-    if (start >= end) break;
-    // fruitType이 2보다 초과인 경우 start++
-    // fruitType이 2보다 이하인 경우 end++
-
-    if (fruitType <= 2) {
-      max = Math.max(max, end - start + 1);
-    }
-
-    if (fruitType > 2) {
-      abstractFruit(fruits[start]);
-      start++;
-    } else {
-      end++;
-      addFruit(fruits[end]);
-    }
-  }
-
-  return max;
+  return rotated;
 };
 
-console.log(solution());
+console.log(n, m, r, arr, rotate90deg(arr));
+
+(0, 0)(0, 1), (0, 2), (0, 3)();
