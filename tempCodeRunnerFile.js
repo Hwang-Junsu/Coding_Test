@@ -1,2 +1,1 @@
-
-    if (count[fruit] === 0) fruitType -= 1;
+dp.forEach((el) => console.log(el.join(" ")));
