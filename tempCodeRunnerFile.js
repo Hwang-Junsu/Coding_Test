@@ -1,1 +1,1 @@
-dp.forEach((el) => console.log(el.join(" ")));
+에
