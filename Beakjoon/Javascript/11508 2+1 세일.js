@@ -1,10 +1,3 @@
-// const isMac = process.platform === "darwin";
-
-// let input = require("fs")
-//   .readFileSync(isMac ? "input.txt" : "/dev/stdin")
-//   .toString()
-//   .split("\n");
-
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,
