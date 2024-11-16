@@ -1,19 +1,4 @@
-A8 B7 18
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
-RB
+3 3
+111
+101
+111
