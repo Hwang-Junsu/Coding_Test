@@ -5,59 +5,26 @@ let input = require("fs")
   .trim()
   .split("\n");
 
-const t = +input[0];
-const arr = input.slice(1).map((el) => el.split(" "));
+const [first, second] = input;
 
-const answer = [];
+// 맞물렸을때를 판단?
 
-for (let i = 0; i < t; i++) {
-  const [a, b] = arr[i];
+// 길이가 가장 짧게
 
-  const ra = +a.slice(-1);
-  const rb = +b;
+const fLen = first.length;
+const sLen = second.length;
+const min = fLen + sLen;
 
-  switch (ra) {
-    case 1:
-      answer.push(1);
-      break;
-    case 2:
-      answer.push(rb % 4 === 0 ? 6 : rb % 4 === 1 ? 2 : rb % 4 === 2 ? 4 : 8);
-      break;
-    case 3:
-      answer.push(rb % 4 === 0 ? 1 : rb % 4 === 1 ? 3 : rb % 4 === 2 ? 9 : 7);
-      break;
-    case 4:
-      answer.push(rb % 2 === 0 ? 6 : 4);
-      break;
-    case 5:
-      answer.push(5);
-      break;
-    case 6:
-      answer.push(6);
-      break;
-    case 7:
-      answer.push(rb % 4 === 0 ? 1 : rb % 4 === 1 ? 7 : rb % 4 === 2 ? 9 : 3);
-      break;
-    case 8:
-      answer.push(rb % 4 === 0 ? 6 : rb % 4 === 1 ? 8 : rb % 4 === 2 ? 4 : 2);
-      break;
-    case 9:
-      answer.push(rb % 2 === 0 ? 1 : 9);
-      break;
-    case 0:
-      answer.push(10);
-      break;
+const long = fLen > sLen ? first : second;
+const short = fLen <= sLen ? second : first;
+
+// 이 반복문은 두 기어를 비교하는 반복문 하나는 움직이지 않고 가만히.
+
+function compare(start, end) {
+  for (let i = 0; i < fLen; i++) {
+    for (let j = start; j < end; j++) {
+      if (+long[i] + +short[j] !== 3) return false;
+    }
   }
+  return true;
 }
-
-console.log(answer.join("\n"));
-
-// 1 -> 1
-// 2 -> 2 4 8 6
-// 3 -> 3 9 7 1
-// 4 -> 4 6
-// 5 -> 5
-// 6 -> 6
-// 7 -> 7 9 3 1
-// 8 -> 8 4 2 6
-// 9 -> 9 1
