@@ -62,10 +62,6 @@ function solution(l, s) {
 
 console.log(solution(long, short));
 
-// se - ss = 진입한 짧은 기어의 길이
-// ss = 아직 진입하지 않은 짧은기어의 길이
-// s.length - se - ss = 밖으로 나간 기어의 길이
-
 // 10 5 길이라고 가정
 // ls  le  ss  se
 // 0   1   4   5
