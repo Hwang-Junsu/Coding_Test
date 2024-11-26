@@ -5,59 +5,66 @@ let input = require("fs")
   .trim()
   .split("\n");
 
-const sudoku = input.map((el) => el.split("").map(Number));
+const n = +input[0];
+const board = input.slice(1).map((el) => el.split(" "));
+const dir = [
+  [-1, 0],
+  [1, 0],
+  [0, 1],
+  [0, -1],
+];
 
-const answer = [];
-const sequence = getSequence();
-const seqLen = sequence.length;
+let answer = "NO";
 
-function canPlace(value, i, j, board) {
-  // 일자로 중복되는게 있으면 false
-  for (let x = 0; x < 9; x++) {
-    if (board[i][x] === value) return false;
-    if (board[x][j] === value) return false;
-  }
-  let sx = Math.floor(i / 3) * 3;
-  let ex = sx + 3;
-  let sy = Math.floor(j / 3) * 3;
-  let ey = sy + 3;
-  // 3 x 3 정사각형 구역에 중복되는게 있으면 false;
-  for (let a = sx; a < ex; a++) {
-    for (let b = sy; b < ey; b++) {
-      if (board[a][b] === value) return false;
-    }
-  }
-  return true;
-}
+// 선생님의 감시에 걸리는지 여부
 
-function dfs(index, board) {
-  if (index === seqLen) {
-    answer.push(board);
-    return true;
-  }
+const [sequence, teachers, students] = getInfomation();
 
-  const [cx, cy] = sequence[index];
-
-  if (board[cx][cy] > 0) {
-    return dfs(index + 1, board);
-  }
-
-  for (let v = 1; v <= 9; v++) {
-    if (canPlace(v, cx, cy, board)) {
-      const newBoard = board.map((row) => [...row]);
-      newBoard[cx][cy] = v;
-      if (dfs(index + 1, newBoard)) {
-        return true;
+function supervise() {
+  teachers.forEach(([ty, tx]) => {
+    for (let i = 0; i < 4; i++) {
+      const [dy, dx] = dir[i];
+      let ny = dy + ty;
+      let nx = dx + tx;
+      while (true) {
+        if (nx < 0 || ny < 0 || nx >= n || ny >= n) break;
+        if (board[ny][nx] === "O") break;
+        if (board[ny][nx] === "S") {
+          return true;
+        }
+        ny += ty;
+        nx += tx;
       }
-      board[cx][cy] = 0;
     }
-  }
+  });
 
   return false;
 }
 
-dfs(0, sudoku);
-printBoard(answer[0]);
+// dfs
+function dfs() {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {}
+  }
+}
+
+function setObstacle(y, x, value) {
+  board[y][x] = value;
+}
+
+function getInfomation() {
+  const seq = [];
+  const t = [];
+  const s = [];
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (board[i][j] === "T") t.push([i, j]);
+      if (board[i][j] === "S") s.push([i, j]);
+      seq.push([i, j]);
+    }
+  }
+  return [seq, t, s];
+}
 
 function printBoard(board) {
   let answer = "";
@@ -65,18 +72,4 @@ function printBoard(board) {
   console.log(answer);
 }
 
-function getSequence() {
-  const seq = [];
-  for (let i = 0; i < 9; i++) {
-    for (let j = 0; j < 9; j++) {
-      seq.push([i, j]);
-    }
-  }
-  return seq;
-}
-
-// 1. (0,0) 부터 (8,8) 까지 순서대로 순회한다.
-
-// 2. 기존에 값이 있다면 다음으로 넘어간다.
-// 3. 기존에 값이 없다면(0) 0~9 까지 canPlace를 판단한다.
-// 4. 놓을 숫자가 있다면 해당 숫자를 놓는다
+dfs(0, 0);
