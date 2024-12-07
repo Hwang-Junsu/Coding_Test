@@ -5,61 +5,37 @@ let input = require("fs")
   .trim()
   .split("\n");
 
-const sliceIndex = input.indexOf("-");
+const t = +input[0];
 
-const words = input.slice(0, sliceIndex);
-const boards = input.slice(sliceIndex + 1, -1);
+const createGrid = (m, n) => {
+  const grid = [];
 
-function getBoardDict(str) {
-  const dict = {};
-  const arr = str.split("");
-  arr.forEach((el) => {
-    dict[el] = !dict[el] ? 1 : dict[el] + 1;
-  });
-
-  return dict;
-}
-
-function canMakeWord(word, boardDict, target) {
-  const dict = {};
-  const arr = word.split("");
-
-  arr.forEach((el) => {
-    dict[el] = !dict[el] ? 1 : dict[el] + 1;
-  });
-
-  let count = 0;
-
-  Object.keys(dict).forEach((el) => {
-    if (boardDict[el] >= dict[el]) count++;
-  });
-
-  const canMake = count === word.length && dict[target] > 0;
-
-  return canMake;
-}
-
-// board의 첫글자부터 순서대로 단어를 만들수있는지 확인한다.
-
-function solution() {
-  boards.forEach((board) => {
-    const answerDict = {};
-    const boardDict = getBoardDict(board);
-
-    for (let i = 0; i < board.length; i++) {
-      const target = board[i];
-      answerDict[target] = 0;
-      for (let j = 0; j < words.length; j++) {
-        const word = words[j];
-
-        if (canMakeWord(word, boardDict, target)) {
-          answerDict[target] += 1;
-        }
-      }
+  for (let i = 0; i < m; i++) {
+    const arr = [];
+    for (let j = 0; j < n; j++) {
+      arr.push(0);
     }
+    grid.push(arr);
+  }
 
-    console.log(answerDict);
-  });
+  return grid;
+};
+
+const printGrid = (grid) => {
+  let str = "";
+  for (let i = 0; i < grid.length; i++) {
+    for (let j = 0; j < grid[i].length; j++) {
+      str += `(${i}, ${j}) `;
+    }
+    str += "\n";
+  }
+
+  console.log(str);
+};
+
+for (let i = 0; i < t; i++) {
+  const [m, n] = input[1 + i].split(" ").map(Number);
+
+  const grid = createGrid(m, n);
+  printGrid(grid);
 }
-
-solution();
