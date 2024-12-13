@@ -5,19 +5,24 @@ let input = require("fs")
   .trim()
   .split("\n");
 
-let answer = "";
-const arr = input.slice(0, -1).map((el) => el.split(" ").map(Number));
+const str = input[0];
+let answer = 0;
 
-for (let i = 0; i < arr.length; i++) {
-  const [n, ...numbers] = arr[i];
+console.log(str);
 
-  const temp = [numbers[0]];
-
-  for (let j = 1; j < n; j++) {
-    if (numbers[j - 1] !== numbers[j]) temp.push(numbers[j]);
-  }
-
-  answer += `${temp.join(" ")} $${i !== arr.length - 1 ? "\n" : ""}`;
+function isUpperCase(str) {
+  return str === str.toUpperCase();
 }
 
-console.log(answer);
+let count = 0;
+
+for (let i = 0; i < str.length; i++) {
+  const char = str[i];
+
+  if (isUpperCase(char)) {
+    count++;
+  } else {
+  }
+
+  answer++;
+}
