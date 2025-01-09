@@ -1,3 +1,7 @@
+// parametric search 문제
+// 숫자 overflow 발생으로 계산이 제대로 되지 않아 시간초과 발생
+// BigInt 처리 해야함
+
 const isMac = process.platform === "darwin";
 let input = require("fs")
   .readFileSync(isMac ? "input.txt" : "/dev/stdin")
